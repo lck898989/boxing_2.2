@@ -189,7 +189,7 @@
       "array": [
         0,
         0,
-        541.2658773652742,
+        349.0082377251288,
         0,
         0,
         0,
@@ -598,15 +598,15 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        2,
         0,
         0,
         0,
         0,
         1,
-        -2.15,
         2.15,
-        -2.15
+        2.15,
+        1
       ]
     },
     "_eulerAngles": {
@@ -680,16 +680,16 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        251.01,
+        -248.191,
         -115.729,
         0,
         0,
         0,
         0,
         1,
-        -1,
         1,
-        -1
+        1,
+        1
       ]
     },
     "_eulerAngles": {
@@ -734,7 +734,9 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
-    "_atlas": null,
+    "_atlas": {
+      "__uuid__": "cd3492c9-0ee9-45ed-b13c-6bd6c0492ee5"
+    },
     "_id": "c3Mn59M/VMCYpGsOkADbKY"
   },
   {

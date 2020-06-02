@@ -23,7 +23,7 @@ const {ccclass, property} = cc._decorator;
 
     private skillData: SkillData = null;
 
-    private skillName: string = "";
+    public skillName: string = "";
 
     start() {
         this.skillManager = this.node.getComponent(SkillManager);
@@ -34,13 +34,17 @@ const {ccclass, property} = cc._decorator;
     }
     /** 技能动画播放完毕 */
     animationFinished(): void {
-        console.log("动画播放完毕");
-        this.skillManager.generateSkill(this.skillName);
-        
+        this.player.isAnimationOver = true;
+        if(this.skillName) {
+            /**生成技能 */
+            this.skillManager.generateSkill(this.skillName);
+        }
+
         if(!this.player.isDead) {
             let id = setTimeout(() => {
                 this.animator.play(ResConfig.wait_anim.name);
                 clearTimeout(id);
+                this.skillName = "";
             },200);
         }
     }
@@ -50,7 +54,7 @@ const {ccclass, property} = cc._decorator;
         /** 准备技能 */
         this.skillData = this.skillManager.skillDataMap.get(name);
         /** 播放动画 */
-        if(this.skillData && !this.skillData.isCool) {
+        if(this.skillData && !this.skillData.isCool && this.skillName) {
             /** 播放技能动画 */
             this.animator.play(this.skillData.skillAnimationName);
             

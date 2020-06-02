@@ -50,14 +50,20 @@ export default class Player extends cc.Component {
     // private addAnimation()
     /** 播放动画 */
     public playAnimation(name: string): cc.AnimationState {
-        this.isAnimationOver = false;
-        // let animState: cc.AnimationState = null;
-        return this.node.getComponent(cc.Animation).play(name);
+        let state: cc.AnimationState = null;
+        state = this.node.getComponent(cc.Animation).play(name);
+
+        if(state.wrapMode === cc.WrapMode.Loop) {
+            this.isAnimationOver = true;
+        } else {
+            this.isAnimationOver = false;
+        }
+        return state;
     }
     /** 英雄是否死亡 */
     public isDead: boolean = false;
     /** 动画是否播放完毕 */
-    public isAnimationOver: boolean = false;
+    public isAnimationOver: boolean = true;
 
     async onLoad () {
         
@@ -65,11 +71,8 @@ export default class Player extends cc.Component {
 
     start () {
         this.animation = this.node.getComponent(cc.Animation);
-        this.animation.on("finished",this.animationOver,this);
     }
-    public animationOver() {
-        this.isAnimationOver = true;
-    }
+    
     onDestroy() {
     }
     update (dt) {
