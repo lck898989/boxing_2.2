@@ -24,6 +24,8 @@ export default abstract class FSMState {
     constructor() {
         this.triggers = [];
         this.init();
+
+        this.initTriggerStateMap();
     }
 
     get stateId(): FSMStateId {
@@ -35,6 +37,12 @@ export default abstract class FSMState {
 
     /** 子类初始化状态id */
     public abstract init();
+
+    public initTriggerStateMap() {
+        /** 添加条件状态映射 */
+        this.addMap(FSMTriggerId.Avoid,FSMStateId.Avoid);
+        this.addMap(FSMTriggerId.NoHealth,FSMStateId.Dead);
+    }
 
     /*** 状态机调用为映射表和条件列表赋值 */
     public addMap(triggerId: FSMTriggerId,stateId: FSMStateId) {
@@ -64,7 +72,8 @@ export default abstract class FSMState {
                 /** 得到状态id */
                 let stateId = this.triggerStateMap.get(item.id);
                 /** 通知状态机切换状态 */
-                fsm.switchState(stateId);   
+                fsm.switchState(stateId);
+                return true;   
             }
         })
     }

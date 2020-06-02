@@ -44,7 +44,7 @@ export default class EventManager {
         if(!event.target) {
             event.target = this.target;
         }
-        if(this.listenerObj[event.type].length > 0) {
+        if(this.listenerObj[event.type] && this.listenerObj[event.type].length > 0) {
             let typeLen: number = this.listenerObj[event.type].length;
             let handlers = this.listenerObj[event.type];
             for(let i = 0; i < handlers.length; i++) {

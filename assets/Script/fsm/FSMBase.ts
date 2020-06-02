@@ -55,8 +55,8 @@ export default class FSMBase extends cc.Component {
         let avoidState: AvoidState = new AvoidState();
 
         /** 添加条件状态映射关系 */
-        idleState.addMap(FSMTriggerId.NoHealth,FSMStateId.Dead);
-        idleState.addMap(FSMTriggerId.Avoid,FSMStateId.Avoid);
+        // deadState.addMap(FSMTriggerId.NoHealth,FSMStateId.Dead);
+        // avoidState.addMap(FSMTriggerId.Avoid,FSMStateId.Avoid);
 
         /*** 将现有的状态加入到状态机数组里面 */
         this.stateList.push(idleState);
@@ -85,6 +85,10 @@ export default class FSMBase extends cc.Component {
     }
 
     public switchState(stateId: FSMStateId) {
+        /** 如果要改变的状态跟当前的状态相同的话就退出没什么意义 */
+        if(stateId === this.curState.id) {
+            return;
+        }
         this.curState ? this.curState.existState(this) : "";
         if(stateId === FSMStateId.Default) {
             this.curState = this.defaultState;

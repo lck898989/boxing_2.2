@@ -146,12 +146,12 @@
     "tag": 0,
     "_offset": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 16.7,
       "y": 0
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 43,
+      "width": 9.7,
       "height": 32
     },
     "_id": ""

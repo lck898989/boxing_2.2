@@ -31,7 +31,8 @@ export default class AvoidTrigger extends FSMTrigger {
                     /** 判断技能节点与自己的距离 */
                     let skillPos: cc.Vec2 = skillManager.curSkillNode.convertToWorldSpaceAR(cc.v2(0,0));
                     let myPos: cc.Vec2 = fsm.node.convertToWorldSpaceAR(cc.v2(0,0));
-                    if(Math.abs(skillPos.sub(myPos).x) <= 200) {
+                    console.log("距离：",skillPos.sub(myPos).x);
+                    if(Math.abs(skillPos.sub(myPos).x) <= 250) {
                         res = true;
                     } else {
                         res = false;

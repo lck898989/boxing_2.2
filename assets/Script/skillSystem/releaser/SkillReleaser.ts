@@ -45,7 +45,6 @@ export default abstract class SkillReleaser extends cc.Component {
         this.initReleaser();
     }
     private async playskillAnim() {
-        console.log("动画播放完毕可以播放技能动画");
         this.canRelease = true;
         let delay  = this.skillData.skillDelay;
         if(this.skillData.skillDelay > 0) {
@@ -96,14 +95,15 @@ export default abstract class SkillReleaser extends cc.Component {
     }
 
     start () {
-        EventManager.getInstance().addEventListener("animation_finish",this.playskillAnim,this);
+        this.playskillAnim();
+        // cc.director.on("animation_finish",this.playskillAnim,this);
     }
     onDestroy() {
-        EventManager.getInstance().removeEventListener("animation_finish",this.playskillAnim,this);
+        // cc.director.off("animation_finish",this.playskillAnim,this);
         // cc.director.off("animation_finish",this.playskillAnim,this);
     }
     onDisable() {
-        EventManager.getInstance().removeEventListener("animation_finish",this.playskillAnim,this);
+        // cc.director.off("animation_finish",this.playskillAnim,this);
     }
     /**
      * 计算影响

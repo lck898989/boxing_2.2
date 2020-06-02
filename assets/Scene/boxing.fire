@@ -189,7 +189,7 @@
       "array": [
         0,
         0,
-        359.4005425705421,
+        541.2658773652742,
         0,
         0,
         0,
@@ -624,7 +624,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "hero1",
+    "_name": "player",
     "_objFlags": 0,
     "_parent": {
       "__id__": 12
@@ -867,7 +867,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "hero1",
+    "_name": "enemy",
     "_objFlags": 0,
     "_parent": {
       "__id__": 19
