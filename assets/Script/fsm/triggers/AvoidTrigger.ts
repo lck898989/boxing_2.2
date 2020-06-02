@@ -28,6 +28,7 @@ export default class AvoidTrigger extends FSMTrigger {
 
                 let skillManager: SkillManager = item.getComponent(SkillManager);
                 if(skillManager && skillManager.curSkill && skillManager.curSkillNode) {
+                    /*** 躲避远程技能 */
                     /** 判断技能节点与自己的距离 */
                     let skillPos: cc.Vec2 = skillManager.curSkillNode.convertToWorldSpaceAR(cc.v2(0,0));
                     let myPos: cc.Vec2 = fsm.node.convertToWorldSpaceAR(cc.v2(0,0));
@@ -37,6 +38,9 @@ export default class AvoidTrigger extends FSMTrigger {
                     } else {
                         res = false;
                     }
+                } else {
+                    /** 躲避近程技能 */
+                    
                 }
             }
         });

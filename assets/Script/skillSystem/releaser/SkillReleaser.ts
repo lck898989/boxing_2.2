@@ -11,7 +11,7 @@ import EventManager from "../../managers/EventManager";
 /**
  * 
  * 
- * 技能释放器
+ * 技能释放器（挂载到技能预制件中）
  * 
  * 
  */
@@ -96,14 +96,10 @@ export default abstract class SkillReleaser extends cc.Component {
 
     start () {
         this.playskillAnim();
-        // cc.director.on("animation_finish",this.playskillAnim,this);
     }
     onDestroy() {
-        // cc.director.off("animation_finish",this.playskillAnim,this);
-        // cc.director.off("animation_finish",this.playskillAnim,this);
     }
     onDisable() {
-        // cc.director.off("animation_finish",this.playskillAnim,this);
     }
     /**
      * 计算影响

@@ -3,6 +3,7 @@ import { FSMTriggerId } from "./common/FSMTriggerId";
 import FSMTrigger from "./FSMTrigger";
 import FSMBase from "./FSMBase";
 import ClassFactory from "../utils/ClassFactory";
+import Player from "./Player";
 
 /**
  * 
@@ -67,7 +68,7 @@ export default abstract class FSMState {
     
     /** 检查条件符合条件的通知状态机进行切换 */
     public check(fsm: FSMBase) {
-        this.triggers.find((item,index) => {
+        let trigger: FSMTrigger = this.triggers.find((item,index) => {
             if(item && item.handleTrigger && item.handleTrigger(fsm)) {
                 /** 得到状态id */
                 let stateId = this.triggerStateMap.get(item.id);
@@ -75,7 +76,11 @@ export default abstract class FSMState {
                 fsm.switchState(stateId);
                 return true;   
             }
-        })
+        });
+        /** 找不到符合条件的状态切换到默认状态 */
+        if(!trigger && fsm.node.getComponent(Player).isAnimationOver) {
+            fsm.switchState(FSMStateId.Idle);
+        }
     }
 
     /** 进入状态 */

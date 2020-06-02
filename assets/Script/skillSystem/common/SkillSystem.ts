@@ -37,8 +37,6 @@ const {ccclass, property} = cc._decorator;
         console.log("动画播放完毕");
         this.skillManager.generateSkill(this.skillName);
         
-        
-        // if()
         if(!this.player.isDead) {
             let id = setTimeout(() => {
                 this.animator.play(ResConfig.wait_anim.name);
