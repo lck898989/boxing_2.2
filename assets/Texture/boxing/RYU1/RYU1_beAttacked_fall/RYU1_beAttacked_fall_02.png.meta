@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "8c43aa93-0482-4cb3-80e1-e506b78362fb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 102,
+  "height": 45,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_beAttacked_fall_02": {
+      "ver": "1.0.4",
+      "uuid": "6a6f1db7-4fff-4dcb-9076-b638b7a7ee9f",
+      "rawTextureUuid": "8c43aa93-0482-4cb3-80e1-e506b78362fb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 102,
+      "height": 45,
+      "rawWidth": 102,
+      "rawHeight": 45,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<h1 class="title">自动绑定制定节点动画</h1>
+<hr />
+<ui-box-container>
+        <!-- <ui-num-input placeholder="希望查找的目录数:" v-value=""></ui-num-input> -->
+    <div class="input-container">
+        <div>动画资源目录：</div>
+        <ui-input v-value="dirs" placeholder="动画资源目录"></ui-input>
+
+    </div>
+   
+</ui-box-container>
+<hr />
+<div class="btn-container">
+    <ui-button id="btn" class="blue title" @confirm="startConfig">开始配置</ui-button>
+</div>

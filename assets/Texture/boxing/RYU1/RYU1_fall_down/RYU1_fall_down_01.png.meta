@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "25d7f14b-068a-434e-a3d6-af43f8cc437b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 119,
+  "height": 44,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_fall_down_01": {
+      "ver": "1.0.4",
+      "uuid": "124267ca-dfb1-4c11-965b-c4398e4463de",
+      "rawTextureUuid": "25d7f14b-068a-434e-a3d6-af43f8cc437b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 119,
+      "height": 44,
+      "rawWidth": 119,
+      "rawHeight": 44,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

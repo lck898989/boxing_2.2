@@ -1,0 +1,30 @@
+{
+  "name": "resmap",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "资源映射/配置目录": {
+      "message": "resmap:open"
+    },
+    "资源映射/动画自动添加": {
+      "message": "resmap:openAni"
+    }
+  },
+  "scene-script": "sceneWalker.js",
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "配置资源映射",
+    "width": 400,
+    "height": 300
+  },
+  "panel:addAni": {
+    "main": "panel/ani/index.js",
+    "type": "dockable",
+    "title": "动画绑定",
+    "width": 800,
+    "height": 600
+  }
+}

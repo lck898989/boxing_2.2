@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "39c41269-cf5c-4e0c-b1b0-c9ecb80bc6e0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 95,
+  "height": 61,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_crouch_light_boxing_02": {
+      "ver": "1.0.4",
+      "uuid": "5b503c98-e18f-4336-8418-4d89b8abaab6",
+      "rawTextureUuid": "39c41269-cf5c-4e0c-b1b0-c9ecb80bc6e0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 95,
+      "height": 61,
+      "rawWidth": 95,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

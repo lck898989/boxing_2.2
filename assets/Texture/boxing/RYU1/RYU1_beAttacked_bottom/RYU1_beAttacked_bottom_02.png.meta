@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "31aab7e5-1d1c-4abe-ab0f-dc9e2911daec",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 66,
+  "height": 82,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_beAttacked_bottom_02": {
+      "ver": "1.0.4",
+      "uuid": "1cf8cc60-2269-402a-859d-f71cee5f023c",
+      "rawTextureUuid": "31aab7e5-1d1c-4abe-ab0f-dc9e2911daec",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 66,
+      "height": 82,
+      "rawWidth": 66,
+      "rawHeight": 82,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

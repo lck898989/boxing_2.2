@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "33e880e5-14f3-4d23-8f1c-a829837bc471",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 74,
+  "height": 90,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_wave_boxing_01": {
+      "ver": "1.0.4",
+      "uuid": "405497f1-b834-42c4-bdd4-fee1edc1f900",
+      "rawTextureUuid": "33e880e5-14f3-4d23-8f1c-a829837bc471",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 74,
+      "height": 90,
+      "rawWidth": 74,
+      "rawHeight": 90,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

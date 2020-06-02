@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "165163e3-8cce-4480-b992-9ac6414870f0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 55,
+  "height": 61,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU2_stand_crouch_defense_01": {
+      "ver": "1.0.4",
+      "uuid": "a7ffa1d1-ceaa-42dd-ba49-9746d60f1f4e",
+      "rawTextureUuid": "165163e3-8cce-4480-b992-9ac6414870f0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 55,
+      "height": 61,
+      "rawWidth": 55,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "440a6867-143c-4874-86ee-1a15355a690e",
+  "rawTextureUuid": "a51bb7f4-32de-4ca7-b452-6b0ea8840c81",
+  "size": {
+    "width": 124,
+    "height": 85
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU2_beAttacked_bottom_01.png": {
+      "ver": "1.0.4",
+      "uuid": "348418ca-120d-4b67-8362-4429994a318d",
+      "rawTextureUuid": "a51bb7f4-32de-4ca7-b452-6b0ea8840c81",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 58,
+      "height": 85,
+      "rawWidth": 58,
+      "rawHeight": 85,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "RYU2_beAttacked_bottom_02.png": {
+      "ver": "1.0.4",
+      "uuid": "05fc4f22-a8ae-4a6d-ba60-2af879add899",
+      "rawTextureUuid": "a51bb7f4-32de-4ca7-b452-6b0ea8840c81",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 58,
+      "trimY": 0,
+      "width": 66,
+      "height": 82,
+      "rawWidth": 66,
+      "rawHeight": 82,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

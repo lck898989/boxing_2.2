@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jump_heavy_boxing",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "de94bd7d-20bf-47e7-998f-de19966e67a4"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "5b1e718f-1b61-4176-86fa-4a6dafd45b00"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "89dbfed8-5a27-4e7f-85f4-5428dd91eb0e"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "5e32235b-fa56-42cf-8b72-21e201a3de61"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

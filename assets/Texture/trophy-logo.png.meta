@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "f76d11ec-2f88-4964-b85a-c1a7e824c530",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 36,
+  "height": 31,
+  "platformSettings": {},
+  "subMetas": {
+    "trophy-logo": {
+      "ver": "1.0.4",
+      "uuid": "db9480b8-40a8-4ac6-a84e-46f58684eab6",
+      "rawTextureUuid": "f76d11ec-2f88-4964-b85a-c1a7e824c530",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 36,
+      "height": 31,
+      "rawWidth": 36,
+      "rawHeight": 31,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

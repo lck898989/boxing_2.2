@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "6c96d9b3-d04b-4100-bd50-8682aba56083",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 52,
+  "height": 69,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU2_jump_heavy_boxing_04": {
+      "ver": "1.0.4",
+      "uuid": "dfc998a7-8db4-472a-8c39-7e1d3eee17d3",
+      "rawTextureUuid": "6c96d9b3-d04b-4100-bd50-8682aba56083",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 52,
+      "height": 69,
+      "rawWidth": 52,
+      "rawHeight": 69,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

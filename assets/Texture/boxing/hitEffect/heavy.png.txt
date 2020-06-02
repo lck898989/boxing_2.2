@@ -1,0 +1,1 @@
+heavy_01.png.png 11 5, heavy_02.png.png 38 5, heavy_03.png.png 72 5, heavy_04.png.png 103 0, heavy_05.png.png 112 15.

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "edd6a9bf-b10f-418f-b240-af3ec1cc93fd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 68,
+  "height": 11,
+  "platformSettings": {},
+  "subMetas": {
+    "fighterShadow": {
+      "ver": "1.0.4",
+      "uuid": "8683634c-b7c2-4be8-a565-92dac41f145e",
+      "rawTextureUuid": "edd6a9bf-b10f-418f-b240-af3ec1cc93fd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 68,
+      "height": 11,
+      "rawWidth": 68,
+      "rawHeight": 11,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

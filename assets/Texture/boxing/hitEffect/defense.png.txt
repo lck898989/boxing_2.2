@@ -1,0 +1,1 @@
+defense_01.png.png 11 11, defense_02.png.png 43 6, defense_03.png.png 73 6, defense_04.png.png 104 1, defense_05.png.png 144 7, defense_06.png.png 160 9.

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "23caff17-0721-4102-8690-9810820e6891",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 53,
+  "height": 119,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU2_after_impact_boxing_01": {
+      "ver": "1.0.4",
+      "uuid": "8cfcfb15-3cf6-46ae-a3a7-9706aa796f59",
+      "rawTextureUuid": "23caff17-0721-4102-8690-9810820e6891",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 53,
+      "height": 119,
+      "rawWidth": 53,
+      "rawHeight": 119,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

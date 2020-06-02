@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "d90f8a11-0ef0-4542-8193-63e83b15452f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 20,
+  "height": 27,
+  "platformSettings": {},
+  "subMetas": {
+    "shurikan-spawner": {
+      "ver": "1.0.4",
+      "uuid": "3817a267-1df5-4d60-ac9f-f24ed868c893",
+      "rawTextureUuid": "d90f8a11-0ef0-4542-8193-63e83b15452f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 20,
+      "height": 27,
+      "rawWidth": 20,
+      "rawHeight": 27,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

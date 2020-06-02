@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "25ae57c2-0b64-4fa6-b5e4-1f75bd20157c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 48,
+  "height": 57,
+  "platformSettings": {},
+  "subMetas": {
+    "checkpoint-swimming_03": {
+      "ver": "1.0.4",
+      "uuid": "cd49d392-f539-4682-8a16-c3403b26ba4a",
+      "rawTextureUuid": "25ae57c2-0b64-4fa6-b5e4-1f75bd20157c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 48,
+      "height": 57,
+      "rawWidth": 48,
+      "rawHeight": 57,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

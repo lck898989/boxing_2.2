@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "ea50e7bd-1684-4929-bc9c-348be82d7eb2",
+  "rawTextureUuid": "1bcd52b8-9b83-42bd-bea4-f3c6f9707960",
+  "size": {
+    "width": 127,
+    "height": 93
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU1_stand_up_defense_01.png": {
+      "ver": "1.0.4",
+      "uuid": "04f4609e-00b7-4b51-8da2-e5c32f80480a",
+      "rawTextureUuid": "1bcd52b8-9b83-42bd-bea4-f3c6f9707960",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 63,
+      "height": 92,
+      "rawWidth": 63,
+      "rawHeight": 92,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "RYU1_stand_up_defense_02.png": {
+      "ver": "1.0.4",
+      "uuid": "746bae5d-f524-4f85-9139-b52430d7e2ae",
+      "rawTextureUuid": "1bcd52b8-9b83-42bd-bea4-f3c6f9707960",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 63,
+      "trimY": 0,
+      "width": 64,
+      "height": 93,
+      "rawWidth": 64,
+      "rawHeight": 93,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

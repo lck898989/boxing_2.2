@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "e56fb29d-320e-4110-abf1-b54ad63a95ea",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 85,
+  "height": 101,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU2_beAttacked_electric_01": {
+      "ver": "1.0.4",
+      "uuid": "d322c82a-5147-48db-b928-9b39bf4f6fe9",
+      "rawTextureUuid": "e56fb29d-320e-4110-abf1-b54ad63a95ea",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 85,
+      "height": 101,
+      "rawWidth": 85,
+      "rawHeight": 101,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

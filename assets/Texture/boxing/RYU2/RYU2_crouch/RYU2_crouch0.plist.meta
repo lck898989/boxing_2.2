@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "74625c43-f378-4e34-a83b-aa522e07a7bf",
+  "rawTextureUuid": "d9400381-2ca6-4f18-9674-a75dc3024a19",
+  "size": {
+    "width": 122,
+    "height": 61
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU2_crouch0.png": {
+      "ver": "1.0.4",
+      "uuid": "47991c41-9aa1-4935-9446-af1751cc6878",
+      "rawTextureUuid": "d9400381-2ca6-4f18-9674-a75dc3024a19",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 61,
+      "height": 61,
+      "rawWidth": 61,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "RYU2_crouch_01.png": {
+      "ver": "1.0.4",
+      "uuid": "c120a349-d636-4095-97db-e98f1106f28a",
+      "rawTextureUuid": "d9400381-2ca6-4f18-9674-a75dc3024a19",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 61,
+      "trimY": 0,
+      "width": 61,
+      "height": 61,
+      "rawWidth": 61,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

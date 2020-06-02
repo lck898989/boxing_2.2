@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "near_light_kick",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.35,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "18598109-319b-44ec-bc7d-e042b212f4f7"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "611aa895-d8c2-4a72-916d-008fb80de1ee"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "3800af9a-9ca3-461c-bad6-b24e941d660a"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "ad88ea56-f17f-463d-bed5-efcbd040a36e"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "ab8b55b4-d71d-48b8-bf23-9dfb87498504"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

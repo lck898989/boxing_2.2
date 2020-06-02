@@ -1,0 +1,34 @@
+{
+  "ver": "1.2.4",
+  "uuid": "0b58dd8c-0048-45bf-acc7-96011fc25174",
+  "rawTextureUuid": "bfad76cd-ca80-4b51-8ff2-9bd69e9570d4",
+  "size": {
+    "width": 74,
+    "height": 66
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU1_before_fall_down_01.png": {
+      "ver": "1.0.4",
+      "uuid": "0f9f0bd2-fa01-4652-bf43-93e49754dbe0",
+      "rawTextureUuid": "bfad76cd-ca80-4b51-8ff2-9bd69e9570d4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 74,
+      "height": 66,
+      "rawWidth": 74,
+      "rawHeight": 66,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

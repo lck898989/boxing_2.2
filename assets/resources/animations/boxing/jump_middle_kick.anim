@@ -1,0 +1,53 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jump_middle_kick",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.18333333333333332,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "267fe01e-09d5-4b90-9df5-e7436ee019d2"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "f4e92864-5090-4fbc-a7b4-7ff052007d37"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "7c64d52f-98c5-4274-a44a-2598e0934461"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": -133.92
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": -164.574
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": -216.303
+        }
+      ]
+    }
+  },
+  "events": []
+}

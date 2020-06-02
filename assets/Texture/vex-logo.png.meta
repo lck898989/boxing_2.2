@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "eae8c2d4-326e-47ce-a39b-0117589252a3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 294,
+  "height": 198,
+  "platformSettings": {},
+  "subMetas": {
+    "vex-logo": {
+      "ver": "1.0.4",
+      "uuid": "acfedebd-57db-4efc-a94a-1fd3de3ed771",
+      "rawTextureUuid": "eae8c2d4-326e-47ce-a39b-0117589252a3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": 0,
+      "trimX": 8,
+      "trimY": 34,
+      "width": 268,
+      "height": 130,
+      "rawWidth": 294,
+      "rawHeight": 198,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

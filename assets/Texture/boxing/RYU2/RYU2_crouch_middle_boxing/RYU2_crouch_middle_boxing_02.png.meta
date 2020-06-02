@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "4219e475-9e84-498c-8952-aad5255e4ccb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 92,
+  "height": 62,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU2_crouch_middle_boxing_02": {
+      "ver": "1.0.4",
+      "uuid": "caf63513-5d0e-43b0-8170-9e5a6dd5339b",
+      "rawTextureUuid": "4219e475-9e84-498c-8952-aad5255e4ccb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 92,
+      "height": 62,
+      "rawWidth": 92,
+      "rawHeight": 62,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

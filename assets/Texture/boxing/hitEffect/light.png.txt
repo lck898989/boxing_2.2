@@ -1,0 +1,1 @@
+light_01.png.png 6 5, light_02.png.png 26 5, light_03.png.png 45 0.

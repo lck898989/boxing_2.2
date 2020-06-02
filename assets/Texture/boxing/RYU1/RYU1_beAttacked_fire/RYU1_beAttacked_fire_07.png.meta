@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "9e948b46-5b87-4a71-ad88-f725e8a042e5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 119,
+  "height": 63,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_beAttacked_fire_07": {
+      "ver": "1.0.4",
+      "uuid": "34573005-fdcb-4dc8-bef5-091615e09dfa",
+      "rawTextureUuid": "9e948b46-5b87-4a71-ad88-f725e8a042e5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 119,
+      "height": 63,
+      "rawWidth": 119,
+      "rawHeight": 63,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

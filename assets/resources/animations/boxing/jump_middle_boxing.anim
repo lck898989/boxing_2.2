@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jump_middle_boxing",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "66c2f08a-8c17-41b4-8352-574eed46a399"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "f68a7ce4-71d9-4e5b-aab4-9ae9b3761f8a"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "7f773b54-8a78-42d3-8c94-9816d1276299"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "4bff4e3d-06cb-4377-9fe3-3b46062dba8c"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": -110.93
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": -133.441
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": -177.724
+        },
+        {
+          "frame": 0.26666666666666666,
+          "value": -189.48
+        }
+      ]
+    }
+  },
+  "events": []
+}

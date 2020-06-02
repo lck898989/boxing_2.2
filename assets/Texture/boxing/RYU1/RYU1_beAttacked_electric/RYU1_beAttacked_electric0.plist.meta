@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "19388cad-c80d-4d44-b213-19bde8717932",
+  "rawTextureUuid": "c04b3c2b-3c85-465a-b8e7-bfca47ef2c89",
+  "size": {
+    "width": 153,
+    "height": 101
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU1_beAttacked_electric_01.png": {
+      "ver": "1.0.4",
+      "uuid": "152d4589-1dae-435a-8a89-5316d2443231",
+      "rawTextureUuid": "c04b3c2b-3c85-465a-b8e7-bfca47ef2c89",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 85,
+      "height": 101,
+      "rawWidth": 85,
+      "rawHeight": 101,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "RYU1_beAttacked_electric_02.png": {
+      "ver": "1.0.4",
+      "uuid": "f8a8b43b-fe9f-473b-982d-5807e5ed7b74",
+      "rawTextureUuid": "c04b3c2b-3c85-465a-b8e7-bfca47ef2c89",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 85,
+      "trimY": 0,
+      "width": 68,
+      "height": 89,
+      "rawWidth": 68,
+      "rawHeight": 89,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "859798e6-9799-4452-975b-d5d05b7ddf7a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 60,
+  "height": 94,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU2_near_light_kick_01": {
+      "ver": "1.0.4",
+      "uuid": "4c6e1a05-bb28-49fd-b779-434f15257e82",
+      "rawTextureUuid": "859798e6-9799-4452-975b-d5d05b7ddf7a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 94,
+      "rawWidth": 60,
+      "rawHeight": 94,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

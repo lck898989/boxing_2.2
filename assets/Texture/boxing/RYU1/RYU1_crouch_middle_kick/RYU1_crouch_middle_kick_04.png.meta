@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "f5601b8a-9f4b-4113-b307-948ad2e664bb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 97,
+  "height": 60,
+  "platformSettings": {},
+  "subMetas": {
+    "RYU1_crouch_middle_kick_04": {
+      "ver": "1.0.4",
+      "uuid": "c16ba68a-3c80-4a32-be77-d0d31c6659b0",
+      "rawTextureUuid": "f5601b8a-9f4b-4113-b307-948ad2e664bb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 97,
+      "height": 60,
+      "rawWidth": 97,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ver": "1.2.4",
+  "uuid": "ce944e90-3b51-48b4-887a-5b1850e0a452",
+  "rawTextureUuid": "31fadcb3-d109-45be-a913-caada754ffd8",
+  "size": {
+    "width": 61,
+    "height": 61
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU1_crouch_01.png": {
+      "ver": "1.0.4",
+      "uuid": "a19c8ef7-c2ef-4010-80ec-c29a0d433d8e",
+      "rawTextureUuid": "31fadcb3-d109-45be-a913-caada754ffd8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 61,
+      "height": 61,
+      "rawWidth": 61,
+      "rawHeight": 61,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "a3699a3c-234c-4109-a507-f94890ceb727",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 673,
+  "height": 124,
+  "platformSettings": {},
+  "subMetas": {
+    "game-top-bg": {
+      "ver": "1.0.4",
+      "uuid": "e71853ab-25f0-4e56-900b-54dfb7b73dea",
+      "rawTextureUuid": "a3699a3c-234c-4109-a507-f94890ceb727",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 673,
+      "height": 119,
+      "rawWidth": 673,
+      "rawHeight": 124,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

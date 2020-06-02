@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "56ef0aed-f78f-4c4e-9f1e-f9fdf4be32c5",
+  "rawTextureUuid": "c22ded51-c7bc-4187-ac61-ebb749bf9813",
+  "size": {
+    "width": 126,
+    "height": 92
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "RYU2_jump_light_kick_01.png": {
+      "ver": "1.0.4",
+      "uuid": "1801b2a8-7ba9-4a4d-9cfc-7fe4e3099154",
+      "rawTextureUuid": "c22ded51-c7bc-4187-ac61-ebb749bf9813",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 50,
+      "height": 89,
+      "rawWidth": 50,
+      "rawHeight": 89,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "RYU2_jump_light_kick_02.png": {
+      "ver": "1.0.4",
+      "uuid": "f2b7a92f-a359-4820-a7df-39145904d8dd",
+      "rawTextureUuid": "c22ded51-c7bc-4187-ac61-ebb749bf9813",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 50,
+      "trimY": 0,
+      "width": 76,
+      "height": 92,
+      "rawWidth": 76,
+      "rawHeight": 92,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}
