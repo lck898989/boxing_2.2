@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "0c6bee5f-1aaa-44c6-95b7-3530abf786bf",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 512,
-  "height": 512,
   "platformSettings": {},
   "subMetas": {
     "finish-portal": {

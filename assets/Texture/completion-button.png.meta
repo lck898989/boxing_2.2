@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "eaade084-559b-4de4-a603-1edd43d8cf7e",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 112,
-  "height": 112,
   "platformSettings": {},
   "subMetas": {
     "completion-button": {

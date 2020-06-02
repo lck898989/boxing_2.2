@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "9dd52565-edab-4a82-88e9-0706e44dcf9f",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 59,
-  "height": 90,
   "platformSettings": {},
   "subMetas": {
     "RYU1_wait_02": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "399f11a8-37cb-42d0-b025-dd5b77452452",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 146,
-  "height": 53,
   "platformSettings": {},
   "subMetas": {
     "RYU1_crouch_middle_kick_03": {

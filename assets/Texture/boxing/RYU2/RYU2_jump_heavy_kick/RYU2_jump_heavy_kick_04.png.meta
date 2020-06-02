@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "67ce401e-0c62-4fdc-801c-79fb4b5bf8bc",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 58,
-  "height": 95,
   "platformSettings": {},
   "subMetas": {
     "RYU2_jump_heavy_kick_04": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "8da71495-a186-4e02-8d30-90dc8446473a",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 114,
-  "height": 48,
   "platformSettings": {},
   "subMetas": {
     "click_hell_text": {

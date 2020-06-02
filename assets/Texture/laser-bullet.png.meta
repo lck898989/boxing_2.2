@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "fcec782d-0c67-486a-acc7-7e548bcd7b0d",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 35,
-  "height": 9,
   "platformSettings": {},
   "subMetas": {
     "laser-bullet": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "85bc1155-b15d-455a-86fc-f1a9cd949129",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 63,
-  "height": 92,
   "platformSettings": {},
   "subMetas": {
     "RYU1_stand_up_defense_01": {

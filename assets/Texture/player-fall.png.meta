@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "5852a7ed-66d1-44b7-8eb2-f7d8d8e209ae",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 128,
-  "height": 256,
   "platformSettings": {},
   "subMetas": {
     "player-fall": {

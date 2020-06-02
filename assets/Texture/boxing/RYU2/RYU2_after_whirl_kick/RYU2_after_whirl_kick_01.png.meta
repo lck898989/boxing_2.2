@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "bbf42021-bb82-46ab-83a1-9c6fb81b1f1a",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 54,
-  "height": 102,
   "platformSettings": {},
   "subMetas": {
     "RYU2_after_whirl_kick_01": {

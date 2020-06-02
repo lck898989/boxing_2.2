@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "953c2339-9118-4754-b055-82e4493221cc",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 54,
-  "height": 77,
   "platformSettings": {},
   "subMetas": {
     "RYU1_jumpUp_04": {

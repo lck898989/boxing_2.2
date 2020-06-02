@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "ef500a4c-9b54-43aa-8352-8e92a30fa18b",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 74,
-  "height": 66,
   "platformSettings": {},
   "subMetas": {
     "RYU2_before_fall_down_01": {

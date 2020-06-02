@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "25ae57c2-0b64-4fa6-b5e4-1f75bd20157c",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 48,
-  "height": 57,
   "platformSettings": {},
   "subMetas": {
     "checkpoint-swimming_03": {

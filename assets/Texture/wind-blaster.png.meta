@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "15e48818-b677-447e-a30a-af03c0047013",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 24,
-  "height": 100,
   "platformSettings": {},
   "subMetas": {
     "wind-blaster": {

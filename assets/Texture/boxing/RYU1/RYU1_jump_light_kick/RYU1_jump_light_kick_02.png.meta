@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "fdea382a-524d-42b0-b591-5d31b50c99c6",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 76,
-  "height": 92,
   "platformSettings": {},
   "subMetas": {
     "RYU1_jump_light_kick_02": {

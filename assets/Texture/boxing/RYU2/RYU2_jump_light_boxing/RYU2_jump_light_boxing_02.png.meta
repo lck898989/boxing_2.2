@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "26a35bd6-c8a2-4ba2-8f5c-fd026dc97660",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 81,
-  "height": 71,
   "platformSettings": {},
   "subMetas": {
     "RYU2_jump_light_boxing_02": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "d90f8a11-0ef0-4542-8193-63e83b15452f",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 20,
-  "height": 27,
   "platformSettings": {},
   "subMetas": {
     "shurikan-spawner": {

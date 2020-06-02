@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "3a9fca19-39c2-4fe7-9a65-abeb8d779d5c",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 65,
-  "height": 48,
   "platformSettings": {},
   "subMetas": {
     "complete1-achievement": {

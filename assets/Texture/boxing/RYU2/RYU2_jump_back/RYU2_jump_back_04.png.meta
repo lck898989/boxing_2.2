@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "a8d3a673-21cf-4af6-b932-6c22ebab4571",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 122,
-  "height": 44,
   "platformSettings": {},
   "subMetas": {
     "RYU2_jump_back_04": {

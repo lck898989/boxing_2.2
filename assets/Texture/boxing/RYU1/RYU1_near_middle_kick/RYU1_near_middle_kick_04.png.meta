@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "b2f5da22-8f9c-40bb-9a02-79aa1a59f9b9",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 64,
-  "height": 93,
   "platformSettings": {},
   "subMetas": {
     "RYU1_near_middle_kick_04": {

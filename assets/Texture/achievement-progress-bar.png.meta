@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "f44b5fa0-8c82-47b7-875f-51e22ebb9731",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 95,
-  "height": 16,
   "platformSettings": {},
   "subMetas": {
     "achievement-progress-bar": {

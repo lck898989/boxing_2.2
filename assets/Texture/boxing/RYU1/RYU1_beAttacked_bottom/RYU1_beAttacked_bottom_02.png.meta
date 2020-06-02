@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "31aab7e5-1d1c-4abe-ab0f-dc9e2911daec",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 66,
-  "height": 82,
   "platformSettings": {},
   "subMetas": {
     "RYU1_beAttacked_bottom_02": {

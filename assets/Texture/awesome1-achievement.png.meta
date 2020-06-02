@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "00c19267-bc86-4a04-b4d5-ae71c820e201",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 66,
-  "height": 58,
   "platformSettings": {},
   "subMetas": {
     "awesome1-achievement": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.3",
   "uuid": "fd613bfa-6865-43f4-bba9-115f05ecb905",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,8 +7,6 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 59,
-  "height": 125,
   "platformSettings": {},
   "subMetas": {
     "RYU1_impact_boxing_03": {
