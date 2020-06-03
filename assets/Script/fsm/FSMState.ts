@@ -53,9 +53,6 @@ export default abstract class FSMState {
         let triggerClassName = `${FSMTriggerId[triggerId]}Trigger`;
         let stateClassName = `${FSMStateId[stateId]}State`;
 
-        console.log("triggerClassName is ",triggerClassName);
-        console.log("stateClassName is ",stateClassName);
-
         if(!hasId) {
             this.triggerStateMap.set(triggerId,stateId);
         }

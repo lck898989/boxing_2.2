@@ -21,6 +21,7 @@ export default class InputController extends cc.Component {
     /** 横向移动速度 */
     private moveSpeed: number = 0;
 
+    private canvas: cc.Node = null;
     onLoad () {
         // 开启物理系统
         // cc.director.getPhysicsManager().enabled = true;
@@ -33,13 +34,16 @@ export default class InputController extends cc.Component {
 
         this.player = this.node.getComponent(Player);
 
+        this.canvas = cc.find("Canvas");
+        
+
     }
     private keyDown(event: cc.Event.EventKeyboard): void {
         let code = event.keyCode;
 
         switch(code) {
             case cc.macro.KEY.a:
-                if(this.skillSystem) {
+                if(this.skillSystem && this.player.isAnimationOver) {
                     this.skillSystem.attackUseSkill('波浪拳');
                 }
                 break;
@@ -54,6 +58,7 @@ export default class InputController extends cc.Component {
                 }
                 break;    
             case cc.macro.KEY.left:
+                console.log("x is ",this.player.node.x);
                 this.moveSpeed = -MOVESPEED;
                 break;
             case cc.macro.KEY.right:
@@ -88,8 +93,13 @@ export default class InputController extends cc.Component {
     }
 
     update (dt) {
-
+        
         this.node.x += this.moveSpeed * dt;
 
+        if(this.node.x <= -280) {
+            this.node.x = -280;
+        } else if(this.node.x >= 280) {
+            this.node.x = 280;
+        }
     }
 }

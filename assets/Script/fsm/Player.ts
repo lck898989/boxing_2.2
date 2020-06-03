@@ -53,9 +53,7 @@ export default class Player extends cc.Component {
         let state: cc.AnimationState = null;
         state = this.node.getComponent(cc.Animation).play(name);
 
-        if(state.wrapMode === cc.WrapMode.Loop) {
-            this.isAnimationOver = true;
-        } else {
+        if(state.wrapMode !== cc.WrapMode.Loop) {
             this.isAnimationOver = false;
         }
         return state;
@@ -69,13 +67,20 @@ export default class Player extends cc.Component {
         
     }
 
+    private animationEnd(): void {
+        /** 动画播放完毕 */
+        this.isAnimationOver = true;
+    }
     start () {
         this.animation = this.node.getComponent(cc.Animation);
+        // this.animation.on("finished",this.animationEnd,this);
     }
     
     onDestroy() {
     }
     update (dt) {
-
+        if(this.node.y > -121) {
+            
+        }
     }
 }

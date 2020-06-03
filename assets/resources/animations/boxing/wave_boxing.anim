@@ -3,7 +3,7 @@
   "_name": "wave_boxing",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.26666666666666666,
+  "_duration": 0.43333333333333335,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -33,6 +33,12 @@
             "frame": 0.25,
             "value": {
               "__uuid__": "70974113-a5dd-4cd7-930c-33b399d723c0"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "488556b0-da1d-4315-a0de-d7c4aae96c92"
             }
           }
         ]

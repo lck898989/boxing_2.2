@@ -34,6 +34,7 @@ const {ccclass, property} = cc._decorator;
     }
     /** 技能动画播放完毕 */
     animationFinished(): void {
+        console.log("---动画播放完毕，",this.player.node.y, " and y is larger than -121 is ",this.player.node.y > -121);
         this.player.isAnimationOver = true;
         if(this.skillName) {
             /**生成技能 */
@@ -45,7 +46,7 @@ const {ccclass, property} = cc._decorator;
                 this.animator.play(ResConfig.wait_anim.name);
                 clearTimeout(id);
                 this.skillName = "";
-            },200);
+            },0);
         }
     }
     /** 使用技能攻击(为玩家提供) */
@@ -56,11 +57,11 @@ const {ccclass, property} = cc._decorator;
         /** 播放动画 */
         if(this.skillData && !this.skillData.isCool && this.skillName) {
             /** 播放技能动画 */
-            this.animator.play(this.skillData.skillAnimationName);
+            this.player.playAnimation(this.skillData.skillAnimationName);
             
         }
         /** 朝向目标 */
-   
+        
         /** 生成技能 */
    
         /** 释放器释放技能造成伤害 */
@@ -77,6 +78,9 @@ const {ccclass, property} = cc._decorator;
         let randomSkill: SkillData = skills[random];
         /** 生成技能 */
         skillManager.generateSkill(randomSkill.name);
+    }
+    onDestroy() {
+        this.animator.off('finished',this.animationFinished,this);
     }
 
  }
