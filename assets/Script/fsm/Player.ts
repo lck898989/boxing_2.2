@@ -2,6 +2,7 @@ import { ResConfig } from "../../resconfig";
 import ResourceManager from "../managers/ResourceManager";
 import AnimationManager from "../managers/AnimationManager";
 import InputController from "../boxing/controllers/InputController";
+import SkillSystem from "../skillSystem/common/SkillSystem";
 
 const {ccclass, property} = cc._decorator;
 
@@ -63,6 +64,9 @@ export default class Player extends cc.Component {
     /** 动画是否播放完毕 */
     public isAnimationOver: boolean = true;
 
+    /** ai所需要的计时器id */
+    private timeId: number = -1;
+
     async onLoad () {
         
     }
@@ -74,9 +78,18 @@ export default class Player extends cc.Component {
     start () {
         this.animation = this.node.getComponent(cc.Animation);
         // this.animation.on("finished",this.animationEnd,this);
+        this.timeId = setInterval(() => {
+            if(!this.node.getComponent(InputController)) {
+                let aiSkillSystem = this.node.getComponent(SkillSystem);
+                if(aiSkillSystem) {
+                    aiSkillSystem.useRandSkill();
+                }
+            }
+        },1000);
     }
     
     onDestroy() {
+        clearInterval(this.timeId);
     }
     update (dt) {
         if(this.node.y > -121) {

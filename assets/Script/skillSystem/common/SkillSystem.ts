@@ -77,7 +77,7 @@ const {ccclass, property} = cc._decorator;
         /** 随机技能 */
         let randomSkill: SkillData = skills[random];
         /** 生成技能 */
-        skillManager.generateSkill(randomSkill.name);
+        this.attackUseSkill(randomSkill.name);
     }
     onDestroy() {
         this.animator.off('finished',this.animationFinished,this);

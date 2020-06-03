@@ -73,7 +73,7 @@ export default class SkillManager extends cc.Component {
     public prepareSkill(): SkillData[] {
         let res = [];
         this.skillDataMap.forEach((value,key) => {
-            if(value.isCool) {
+            if(!value.isCool) {
                 res.push(value);
             }
         });
