@@ -25,6 +25,17 @@ export default class Player extends cc.Component {
     })
     public hp: number = 100;
 
+    @property({
+        type: cc.Node,
+        displayName: "技能预制件父节点"
+    })
+    public skillNode: cc.Node = null;
+    /** 技能基准点 */
+    @property({
+        type: cc.Node
+    })
+    public skillRef: cc.Node = null;
+    
     /** 基础攻击力 300 即平a造成的伤害 */
     public baseAttack: number = 300;
 
@@ -35,6 +46,7 @@ export default class Player extends cc.Component {
     private currentAction: cc.AnimationClip = null;
 
     private animation: cc.Animation = null;
+
 
     /** 设置英雄当前动画 */
     public get CurAction() {
@@ -78,14 +90,16 @@ export default class Player extends cc.Component {
     start () {
         this.animation = this.node.getComponent(cc.Animation);
         // this.animation.on("finished",this.animationEnd,this);
-        this.timeId = setInterval(() => {
-            if(!this.node.getComponent(InputController)) {
-                let aiSkillSystem = this.node.getComponent(SkillSystem);
-                if(aiSkillSystem) {
-                    aiSkillSystem.useRandSkill();
+        if(this.node.group === "enemy") {
+            this.timeId = setInterval(() => {
+                if(!this.node.getComponent(InputController)) {
+                    let aiSkillSystem = this.node.getComponent(SkillSystem);
+                    if(aiSkillSystem) {
+                        aiSkillSystem.useRandSkill();
+                    }
                 }
-            }
-        },1000);
+            },1000);
+        }
     }
     
     onDestroy() {

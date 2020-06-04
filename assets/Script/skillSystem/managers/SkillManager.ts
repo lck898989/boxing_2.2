@@ -56,12 +56,14 @@ export default class SkillManager extends cc.Component {
                 skillReleaser.SkillNode = this.curSkillNode;
                 skillReleaser.SkillData = this.curSkill;
 
-                /** 播放技能所属动画 */
-                // this.node.getComponent(Player).playAnimation();
-
-                if(this.node.children.indexOf(this.curSkillNode) < 0) {
-                    this.node.addChild(this.curSkillNode);
-                    this.curSkillNode.setPosition(cc.v2(40,20));
+                /** 找到技能释放的基准点并将该基准点的坐标复制给技能节点 */
+                let player: Player = this.node.getComponent(Player);
+                if(player && player.skillNode.childrenCount === 0) {
+                    player.skillNode.addChild(skillReleaser.SkillNode);
+                    /** 将基准点转换为世界坐标 */
+                    let skillRefWorldPosition = player.skillRef.parent.convertToWorldSpaceAR(player.skillRef.getPosition());
+                   
+                    // skillReleaser.SkillNode.setPosition();
                 }
 
                 // 开始技能冷却

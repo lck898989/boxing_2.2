@@ -74,7 +74,7 @@ export default abstract class SkillReleaser extends cc.Component {
      */
     onCollisionEnter(other: cc.Collider, self: cc.Collider) {
         // console.log('on collision enter');
-        if(other.node.group === 'player' && other.node !== this.skillData.owner && !other.node.getComponent(Player).isDead) {
+        if((other.node.group === 'player' || other.node.group === "enemey") && other.node !== this.skillData.owner && !other.node.getComponent(Player).isDead) {
             console.log("击中对手了");
             /** 计算技能影响 */
             this.dealImpacts(other.node);

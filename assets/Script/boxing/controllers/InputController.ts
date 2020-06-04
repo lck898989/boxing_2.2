@@ -30,9 +30,9 @@ export default class InputController extends cc.Component {
 
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,this.keyDown,this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.keyUp,this);
-        this.skillSystem = this.node.getComponent(SkillSystem);
+        this.skillSystem = this.node.getChildByName("player").getComponent(SkillSystem);
 
-        this.player = this.node.getComponent(Player);
+        this.player = this.node.getChildByName("player").getComponent(Player);
 
         this.canvas = cc.find("Canvas");
         

@@ -17,7 +17,9 @@ export default class AvoidState extends FSMState {
 
     /** 进入状态播放动画 */
     public async enterState(fsm: FSMBase) {
-        fsm.node.getComponent(Player).playAnimation(ResConfig.jump_up_anim.name);
+        if(fsm.node.group === "enemy") {
+            fsm.node.getComponent(Player).playAnimation(ResConfig.jump_up_anim.name);
+        }
         
     }
     public actionState(fsm: FSMBase) {

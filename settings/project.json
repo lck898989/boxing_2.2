@@ -19,6 +19,7 @@
       false,
       false,
       true,
+      true,
       true
     ],
     [
@@ -26,12 +27,23 @@
       false,
       false,
       true,
+      false,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
       false
     ],
     [
       false,
       false,
       false,
+      true,
       true,
       false,
       false
@@ -48,7 +60,8 @@
     "road",
     "skill",
     "player",
-    "wall"
+    "wall",
+    "enemy"
   ],
   "design-resolution-width": 960,
   "design-resolution-height": 640,
