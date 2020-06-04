@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "0c5852ab-2f64-4227-8a73-fe59839b77f3",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 10,
+  "height": 25,
   "platformSettings": {},
   "subMetas": {
     "slide-drag": {

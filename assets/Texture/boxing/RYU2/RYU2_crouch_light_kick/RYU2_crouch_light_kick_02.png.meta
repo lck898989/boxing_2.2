@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "78d7aa6e-5cd5-4518-93e8-5feb9b0b8edb",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 112,
+  "height": 64,
   "platformSettings": {},
   "subMetas": {
     "RYU2_crouch_light_kick_02": {

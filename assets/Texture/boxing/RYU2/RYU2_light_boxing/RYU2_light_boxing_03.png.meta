@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "b7c284d1-f4ea-4c20-9708-4e8c9eccacd9",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 64,
+  "height": 91,
   "platformSettings": {},
   "subMetas": {
     "RYU2_light_boxing_03": {

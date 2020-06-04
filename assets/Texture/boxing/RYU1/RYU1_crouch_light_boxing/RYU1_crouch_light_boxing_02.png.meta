@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "39c41269-cf5c-4e0c-b1b0-c9ecb80bc6e0",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 95,
+  "height": 61,
   "platformSettings": {},
   "subMetas": {
     "RYU1_crouch_light_boxing_02": {

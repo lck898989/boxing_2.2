@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "95edf21f-b456-4c11-aedc-128fb825963a",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 73,
+  "height": 91,
   "platformSettings": {},
   "subMetas": {
     "RYU2_crouch_heavy_boxing_04": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "30631dc6-332a-44ba-addd-e447f64642e7",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 60,
+  "height": 94,
   "platformSettings": {},
   "subMetas": {
     "RYU1_near_heavy_kick_01": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "0cca6272-004e-4a6d-8ed4-658fd74d9836",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 55,
+  "height": 61,
   "platformSettings": {},
   "subMetas": {
     "RYU1_stand_crouch_defense_01": {

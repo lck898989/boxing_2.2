@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "aa99fb3d-b322-4b1b-8db0-7ed6ca5ae08a",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 53,
+  "height": 83,
   "platformSettings": {},
   "subMetas": {
     "RYU1_stand_up_03": {

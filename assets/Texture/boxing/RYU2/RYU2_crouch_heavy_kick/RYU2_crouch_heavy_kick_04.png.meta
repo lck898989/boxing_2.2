@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "89770808-9ad6-4a43-8c7c-cc81513f52ce",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 62,
+  "height": 59,
   "platformSettings": {},
   "subMetas": {
     "RYU2_crouch_heavy_kick_04": {

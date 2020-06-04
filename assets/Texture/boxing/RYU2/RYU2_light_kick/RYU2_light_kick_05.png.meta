@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "c3602e1c-c2be-4b19-ab8e-00dd51a21359",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 60,
+  "height": 94,
   "platformSettings": {},
   "subMetas": {
     "RYU2_light_kick_05": {

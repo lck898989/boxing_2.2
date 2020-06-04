@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "da42b9e4-252b-4bfb-92f0-28ba294f50df",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 82,
+  "height": 113,
   "platformSettings": {},
   "subMetas": {
     "RYU1_near_heavy_boxing_04": {

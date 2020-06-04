@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "a43c21a9-896c-4bd5-bce1-875545c4d29c",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 92,
+  "height": 62,
   "platformSettings": {},
   "subMetas": {
     "RYU1_crouch_middle_boxing_02": {

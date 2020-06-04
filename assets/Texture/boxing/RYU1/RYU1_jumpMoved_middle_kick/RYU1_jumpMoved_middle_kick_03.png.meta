@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "678279a6-8181-4239-9c78-72034df45a0b",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 110,
+  "height": 62,
   "platformSettings": {},
   "subMetas": {
     "RYU1_jumpMoved_middle_kick_03": {

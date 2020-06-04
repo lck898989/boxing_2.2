@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "3ded1add-1fa4-401e-83ae-4d245e002ba2",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 90,
+  "height": 83,
   "platformSettings": {},
   "subMetas": {
     "RYU1_wave_boxing_03": {

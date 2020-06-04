@@ -129,7 +129,7 @@ export default abstract class SkillReleaser extends cc.Component {
     }
 
     update (dt) {
-        if(this.skillNode && this.skillData.isCanMove && this.canRelease) {
+        if(this.skillNode && this.skillData && this.skillData.isCanMove && this.canRelease) {
             switch(this.skillData.spreadDir) {
                 case Direction.RIGHT:
                         this.skillNode.scaleX = 1;

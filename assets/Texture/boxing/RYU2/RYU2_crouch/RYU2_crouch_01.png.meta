@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "921b8c80-6b74-4fbb-9109-b899fa5d2897",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 61,
+  "height": 61,
   "platformSettings": {},
   "subMetas": {
     "RYU2_crouch_01": {

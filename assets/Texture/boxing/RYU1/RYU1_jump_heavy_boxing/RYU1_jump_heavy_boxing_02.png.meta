@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "094cf734-44cf-48da-becc-8dc39748cec1",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 69,
+  "height": 77,
   "platformSettings": {},
   "subMetas": {
     "RYU1_jump_heavy_boxing_02": {

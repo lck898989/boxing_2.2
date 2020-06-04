@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "3a6e5e4a-c577-4804-93d5-a0ff03eec9f3",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 82,
+  "height": 77,
   "platformSettings": {},
   "subMetas": {
     "RYU2_beAttacked_fall_01": {

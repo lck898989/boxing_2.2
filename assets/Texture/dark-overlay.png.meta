@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "55268a56-0612-41ce-9dca-4c79f38e9456",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 4096,
+  "height": 4096,
   "platformSettings": {},
   "subMetas": {
     "dark-overlay": {

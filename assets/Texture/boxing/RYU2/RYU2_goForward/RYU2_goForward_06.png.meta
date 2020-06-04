@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "ad32a2e3-a8ff-45b8-93f5-d318f2f9d0e9",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 54,
+  "height": 91,
   "platformSettings": {},
   "subMetas": {
     "RYU2_goForward_06": {

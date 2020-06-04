@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "93f89ab9-680d-4466-b97f-0e816ff1aea4",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 330,
+  "height": 331,
   "platformSettings": {},
   "subMetas": {
     "act-select-small": {

@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "b0dca64b-76c3-4250-b38c-ec846a31407a",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 60,
+  "height": 94,
   "platformSettings": {},
   "subMetas": {
     "RYU2_near_middle_boxing_01": {

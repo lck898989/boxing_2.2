@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "007e0a08-f003-4f5b-919a-231a31ae489a",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 53,
+  "height": 119,
   "platformSettings": {},
   "subMetas": {
     "RYU1_after_impact_boxing_01": {

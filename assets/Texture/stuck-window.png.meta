@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "5f1f7860-de86-4736-905f-f95aa253ea0d",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 148,
+  "height": 89,
   "platformSettings": {},
   "subMetas": {
     "stuck-window": {

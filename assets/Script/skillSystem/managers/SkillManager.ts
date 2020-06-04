@@ -59,9 +59,18 @@ export default class SkillManager extends cc.Component {
                 /** 找到技能释放的基准点并将该基准点的坐标复制给技能节点 */
                 let player: Player = this.node.getComponent(Player);
                 if(player && player.skillNode.childrenCount === 0) {
-                    player.skillNode.addChild(skillReleaser.SkillNode);
+                    
                     /** 将基准点转换为世界坐标 */
                     let skillRefWorldPosition = player.skillRef.parent.convertToWorldSpaceAR(player.skillRef.getPosition());
+                    console.log("skillRefWorldPosition is ",skillRefWorldPosition);
+                    /** 将基准点的坐标转换为节点坐标 */
+                    let skillRefLocalPosition = player.skillNode.parent.convertToNodeSpaceAR(skillRefWorldPosition);
+                    console.log("skillRefLocalPosition is ",skillRefLocalPosition);
+
+                    player.skillNode.x = skillRefLocalPosition.x;
+                    player.skillNode.y = skillRefLocalPosition.y;
+
+                    player.skillNode.addChild(skillReleaser.SkillNode);
                    
                     // skillReleaser.SkillNode.setPosition();
                 }
@@ -124,11 +133,11 @@ export default class SkillManager extends cc.Component {
         if(param instanceof cc.Node) {
             // 重置回收的节点位置
             param.x = 0;
-            param.opacity = 255;
             this.skillNodePool.put(param);
 
         }
         this.curSkill = null;
+        console.log("skillNode is ",this.curSkillNode);
         // console.log("");
     }
     /** 开始技能冷却倒计时 cd */

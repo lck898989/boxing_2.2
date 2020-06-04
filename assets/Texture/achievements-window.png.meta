@@ -1,5 +1,5 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.4",
   "uuid": "25ace8e9-fb4e-4803-b2a5-5de5c8214c69",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -7,6 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 583,
+  "height": 402,
   "platformSettings": {},
   "subMetas": {
     "achievements-window": {
