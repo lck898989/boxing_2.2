@@ -1,7 +1,6 @@
 {
   "ver": "1.2.4",
-  "uuid": "225c30f8-f58b-4c31-8709-c43ab74f1d19",
-  "rawTextureUuid": "cc105e5a-7cec-49e3-823d-c27a53811c28",
+  "uuid": "646833b8-bf73-4075-b534-bab298729b7c",
   "size": {
     "width": 76,
     "height": 28
@@ -10,8 +9,7 @@
   "subMetas": {
     "defense_01.png": {
       "ver": "1.0.4",
-      "uuid": "bbe36667-2d06-4878-aaa5-8c3856ea5823",
-      "rawTextureUuid": "cc105e5a-7cec-49e3-823d-c27a53811c28",
+      "uuid": "b29703ed-4e62-43af-aef2-19e70fba7be4",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -27,13 +25,11 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "subMetas": {}
     },
     "defense_02.png": {
       "ver": "1.0.4",
-      "uuid": "bbbab89d-7bae-42b2-b747-4a581fcedd92",
-      "rawTextureUuid": "cc105e5a-7cec-49e3-823d-c27a53811c28",
+      "uuid": "0204b873-825d-4b3c-847b-dca97caeb254",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -49,13 +45,11 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "subMetas": {}
     },
     "defense_03.png": {
       "ver": "1.0.4",
-      "uuid": "b8684b49-c63e-4754-a5ed-0953394408fd",
-      "rawTextureUuid": "cc105e5a-7cec-49e3-823d-c27a53811c28",
+      "uuid": "545b2077-f2f7-4105-b232-51751cc02af0",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -71,13 +65,11 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "subMetas": {}
     },
     "defense_04.png": {
       "ver": "1.0.4",
-      "uuid": "df37459f-ba91-46d2-b867-3383c1edfcc7",
-      "rawTextureUuid": "cc105e5a-7cec-49e3-823d-c27a53811c28",
+      "uuid": "b69b53c5-a65e-4f55-8dfa-a563d00c7ca7",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -93,7 +85,6 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
-      "spriteType": "normal",
       "subMetas": {}
     }
   }

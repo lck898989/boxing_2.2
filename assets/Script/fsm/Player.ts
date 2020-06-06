@@ -32,10 +32,13 @@ export default class Player extends cc.Component {
     public skillNode: cc.Node = null;
     /** 技能基准点 */
     @property({
-        type: cc.Node
+        type: cc.Node,
+        displayName: "技能基准点"
     })
     public skillRef: cc.Node = null;
-    
+    /** 矩形碰撞组件 */
+    private rectCollision: cc.BoxCollider = null;
+
     /** 基础攻击力 300 即平a造成的伤害 */
     public baseAttack: number = 300;
 
@@ -89,6 +92,8 @@ export default class Player extends cc.Component {
     }
     start () {
         this.animation = this.node.getComponent(cc.Animation);
+        this.rectCollision = this.node.getComponent(cc.BoxCollider);
+
         // this.animation.on("finished",this.animationEnd,this);
         if(this.node.group === "enemy") {
             this.timeId = setInterval(() => {
@@ -106,8 +111,23 @@ export default class Player extends cc.Component {
         clearInterval(this.timeId);
     }
     update (dt) {
-        if(this.node.y > -121) {
+        if(!this.isAnimationOver) {
+            this.rectCollision.size = cc.size(this.node.width,this.node.height);
+        }
+    }
+
+    /**
+     * 当碰撞产生的时候调用
+     * @param  {Collider} other 产生碰撞的另一个碰撞组件
+     * @param  {Collider} self  产生碰撞的自身的碰撞组件
+     */
+    onCollisionEnter(other: cc.Collider, self: cc.Collider) {
+        // console.log('on collision enter');
+        if((other.node.group === 'player' || other.node.group === "enemey")) {
+            
+        } else if(other.node.group === "wall") {
             
         }
+        
     }
 }

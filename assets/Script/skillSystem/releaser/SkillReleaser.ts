@@ -145,5 +145,6 @@ export default abstract class SkillReleaser extends cc.Component {
                     break;             
             }
         }
+        // console.log("skillNode.parent's length is " + this.node.getComponent(Player).skillNode.childrenCount);
     }
 }

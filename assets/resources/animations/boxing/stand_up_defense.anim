@@ -3,7 +3,7 @@
   "_name": "stand_up_defense",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.18333333333333332,
+  "_duration": 0.5166666666666667,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -21,6 +21,18 @@
             "frame": 0.16666666666666666,
             "value": {
               "__uuid__": "746bae5d-f524-4f85-9139-b52430d7e2ae"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "04f4609e-00b7-4b51-8da2-e5c32f80480a"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "488556b0-da1d-4315-a0de-d7c4aae96c92"
             }
           }
         ]

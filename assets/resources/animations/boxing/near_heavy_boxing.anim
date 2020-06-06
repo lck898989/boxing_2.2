@@ -3,7 +3,7 @@
   "_name": "near_heavy_boxing",
   "_objFlags": 0,
   "_native": "",
-  "_duration": 0.43333333333333335,
+  "_duration": 0.55,
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
@@ -36,13 +36,13 @@
             }
           },
           {
-            "frame": 0.3333333333333333,
+            "frame": 0.38333333333333336,
             "value": {
               "__uuid__": "c54dcc0c-44b2-4eef-9c50-233424176026"
             }
           },
           {
-            "frame": 0.4166666666666667,
+            "frame": 0.5333333333333333,
             "value": {
               "__uuid__": "f934b7b2-5b8e-4d2a-9da0-90776dcf7684"
             }

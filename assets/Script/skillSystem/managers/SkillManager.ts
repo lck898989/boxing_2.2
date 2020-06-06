@@ -47,9 +47,10 @@ export default class SkillManager extends cc.Component {
                     /** 向池子中放入对象 */
                     this.skillNodePool.put(tempNode);
 
-                    this.curSkillNode = tempNode;
-
+                    // this.curSkillNode = tempNode;
+                    this.curSkillNode = this.skillNodePool.get();
                 }
+                
 
                 let skillReleaser: SkillReleaser = this.curSkillNode.getComponent("SkillReleaser");
                 /** 为技能释放器赋予技能数据和技能节点 */
@@ -133,12 +134,12 @@ export default class SkillManager extends cc.Component {
         if(param instanceof cc.Node) {
             // 重置回收的节点位置
             param.x = 0;
+
             this.skillNodePool.put(param);
 
         }
         this.curSkill = null;
-        console.log("skillNode is ",this.curSkillNode);
-        // console.log("");
+        console.log("skillNode is ",this.skillNodePool);
     }
     /** 开始技能冷却倒计时 cd */
     public startSkillCountDown(skill: SkillData) {
@@ -165,6 +166,6 @@ export default class SkillManager extends cc.Component {
     }
 
     update (dt) {
-        
+        // console.log("skillNode's chirdren is ",this.node.getComponent(Player).skillNode.childrenCount);
     }
 }
