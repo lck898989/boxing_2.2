@@ -99,10 +99,14 @@ export default class InputController extends cc.Component {
                     break;    
                 case cc.macro.KEY.left:
                     console.log("x is ",this.player.node.x);
-                    this.moveSpeed = -MOVESPEED;
+                    if(!this.player.isDead) {
+                        this.moveSpeed = -MOVESPEED;
+                    }
                     break;
                 case cc.macro.KEY.right:
-                    this.moveSpeed = MOVESPEED;
+                    if(!this.player.isDead) {
+                        this.moveSpeed = MOVESPEED;
+                    }
                     break;        
             }
         }
@@ -134,13 +138,14 @@ export default class InputController extends cc.Component {
     }
 
     update (dt) {
-        
-        this.node.x += this.moveSpeed * dt;
-
-        if(this.node.x <= -280) {
-            this.node.x = -280;
-        } else if(this.node.x >= 280) {
-            this.node.x = 280;
+        if(!this.player.isDead) {
+            this.node.x += this.moveSpeed * dt;
+    
+            if(this.node.x <= -280) {
+                this.node.x = -280;
+            } else if(this.node.x >= 280) {
+                this.node.x = 280;
+            }
         }
     }
 }

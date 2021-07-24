@@ -45,8 +45,10 @@ export class Game extends cc.Component {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.keyUp,this);
         this.heroCom = <Hero>this.hero.getComponent("Hero");
         this.initMap();
+
     }
     private initMap(): void {
+
         let roadLayer: cc.TiledLayer = this.map.getLayer("图块层 1");
         let gridSize: cc.Size = roadLayer.getMapTileSize();
         let layerSize: cc.Size = roadLayer.getLayerSize();
@@ -64,7 +66,7 @@ export class Game extends cc.Component {
                     let physicCol: cc.PhysicsBoxCollider = nodeItem.addComponent(cc.PhysicsBoxCollider);
                     physicCol.offset = cc.v2(gridSize.width / 2,gridSize.height / 2);
                     physicCol.size = gridSize;
-                    // nodeItem.getComponent()
+                    
                     console.log("nodeItem is ",nodeItem);
                     physicCol.apply();
                 }

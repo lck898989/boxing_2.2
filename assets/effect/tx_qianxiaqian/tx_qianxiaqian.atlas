@@ -1,0 +1,55 @@
+
+tx_qianxiaqian.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_qianxiaqian_4
+  rotate: false
+  xy: 370, 1
+  size: 189, 123
+  orig: 189, 123
+  offset: 0, 0
+  index: -1
+tx_qianxiaqian_0
+  rotate: false
+  xy: 1, 261
+  size: 196, 175
+  orig: 210, 193
+  offset: 4, 10
+  index: -1
+tx_qianxiaqian_3
+  rotate: false
+  xy: 199, 180
+  size: 207, 129
+  orig: 214, 135
+  offset: 7, 1
+  index: -1
+tx_qianxiaqian_1
+  rotate: false
+  xy: 1, 1
+  size: 180, 258
+  orig: 200, 275
+  offset: 0, 0
+  index: -1
+tx_qianxiaqian_6
+  rotate: false
+  xy: 1, 438
+  size: 97, 67
+  orig: 109, 77
+  offset: 6, 3
+  index: -1
+tx_qianxiaqian_5
+  rotate: false
+  xy: 199, 311
+  size: 173, 106
+  orig: 173, 106
+  offset: 0, 0
+  index: -1
+tx_qianxiaqian_2
+  rotate: false
+  xy: 183, 1
+  size: 185, 177
+  orig: 213, 193
+  offset: 15, 8
+  index: -1

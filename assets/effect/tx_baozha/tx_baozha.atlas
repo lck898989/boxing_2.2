@@ -1,0 +1,55 @@
+
+tx_baozha.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_baozha_5
+  rotate: false
+  xy: 361, 1
+  size: 186, 217
+  orig: 198, 269
+  offset: 12, 18
+  index: -1
+tx_baozha_0
+  rotate: false
+  xy: 549, 1
+  size: 84, 188
+  orig: 88, 213
+  offset: 4, 6
+  index: -1
+tx_baozha_2
+  rotate: false
+  xy: 181, 1
+  size: 178, 237
+  orig: 195, 276
+  offset: 17, 22
+  index: -1
+tx_baozha_3
+  rotate: false
+  xy: 186, 240
+  size: 178, 235
+  orig: 194, 266
+  offset: 16, 12
+  index: -1
+tx_baozha_4
+  rotate: false
+  xy: 1, 243
+  size: 183, 231
+  orig: 196, 271
+  offset: 13, 16
+  index: -1
+tx_baozha_6
+  rotate: false
+  xy: 366, 220
+  size: 187, 196
+  orig: 203, 266
+  offset: 16, 39
+  index: -1
+tx_baozha_1
+  rotate: false
+  xy: 1, 1
+  size: 178, 240
+  orig: 200, 287
+  offset: 22, 25
+  index: -1

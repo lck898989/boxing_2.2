@@ -1,0 +1,27 @@
+
+tx_shandian.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_shandian_0
+  rotate: false
+  xy: 1, 1
+  size: 205, 513
+  orig: 214, 521
+  offset: 9, 2
+  index: -1
+tx_shandian_1
+  rotate: false
+  xy: 208, 1
+  size: 145, 509
+  orig: 162, 517
+  offset: 0, 2
+  index: -1
+tx_shandian_2
+  rotate: false
+  xy: 208, 512
+  size: 56, 398
+  orig: 71, 400
+  offset: 0, 0
+  index: -1

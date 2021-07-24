@@ -1,0 +1,41 @@
+
+tx_shouji1.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_shouji1_1
+  rotate: false
+  xy: 178, 64
+  size: 70, 60
+  orig: 96, 76
+  offset: 19, 15
+  index: -1
+tx_shouji1_0
+  rotate: false
+  xy: 1, 1
+  size: 96, 70
+  orig: 96, 76
+  offset: 0, 0
+  index: -1
+tx_shouji1_2
+  rotate: false
+  xy: 178, 1
+  size: 75, 61
+  orig: 96, 76
+  offset: 16, 14
+  index: -1
+tx_shouji1_4
+  rotate: false
+  xy: 99, 65
+  size: 77, 54
+  orig: 96, 76
+  offset: 17, 21
+  index: -1
+tx_shouji1_3
+  rotate: false
+  xy: 99, 1
+  size: 77, 62
+  orig: 96, 76
+  offset: 17, 14
+  index: -1

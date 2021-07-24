@@ -1,0 +1,62 @@
+
+tx_shandian2.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_shandian2_2
+  rotate: false
+  xy: 205, 525
+  size: 48, 367
+  orig: 50, 402
+  offset: 1, 9
+  index: -1
+tx_shandian2_4
+  rotate: false
+  xy: 353, 1
+  size: 132, 504
+  orig: 151, 524
+  offset: 12, 18
+  index: -1
+tx_shandian2_5
+  rotate: false
+  xy: 470, 507
+  size: 26, 371
+  orig: 28, 409
+  offset: 1, 9
+  index: -1
+tx_shandian2_3
+  rotate: false
+  xy: 1, 513
+  size: 143, 504
+  orig: 175, 526
+  offset: 20, 20
+  index: -1
+tx_shandian2_1
+  rotate: false
+  xy: 353, 507
+  size: 115, 503
+  orig: 147, 522
+  offset: 17, 16
+  index: -1
+tx_shandian2_7
+  rotate: false
+  xy: 146, 525
+  size: 57, 395
+  orig: 71, 400
+  offset: 9, 5
+  index: -1
+tx_shandian2_0
+  rotate: false
+  xy: 193, 1
+  size: 158, 522
+  orig: 180, 524
+  offset: 12, 0
+  index: -1
+tx_shandian2_6
+  rotate: false
+  xy: 1, 1
+  size: 190, 510
+  orig: 214, 521
+  offset: 19, 9
+  index: -1

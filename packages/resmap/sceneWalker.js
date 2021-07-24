@@ -28,6 +28,7 @@ module.exports = {
             let animCom = node.getComponent(cc.Animation);
             animCom._clips = [];
             let clips = animCom.getClips();
+            animCom.defaultClip = clips[0];
             
             for(let uuid of uuids) {
                 await new Promise((resolve,reject) => {

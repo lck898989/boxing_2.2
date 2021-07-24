@@ -12,6 +12,8 @@ import SkillReleaser from "../releaser/SkillReleaser";
 import Player from "../../fsm/Player";
 import { ResConfig } from "../../../resconfig";
 import EventManager from "../../managers/EventManager";
+import FSMBase from "../../fsm/FSMBase";
+import { FSMStateId } from "../../fsm/common/FSMStateId";
 
 const {ccclass, property} = cc._decorator;
 @ccclass
@@ -44,6 +46,8 @@ const {ccclass, property} = cc._decorator;
         if(!this.player.isDead) {
             let id = setTimeout(() => {
                 this.animator.play(ResConfig.wait_anim.name);
+                let fsm: FSMBase = this.player.node.getComponent(FSMBase);
+                // fsm.switchState(FSMStateId.Idle);
                 clearTimeout(id);
                 this.skillName = "";
             },0);

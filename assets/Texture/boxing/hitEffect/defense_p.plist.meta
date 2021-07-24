@@ -1,6 +1,7 @@
 {
   "ver": "1.2.4",
   "uuid": "646833b8-bf73-4075-b534-bab298729b7c",
+  "rawTextureUuid": "8070849f-212a-400f-a7c0-82b6eaff6d82",
   "size": {
     "width": 76,
     "height": 28
@@ -10,6 +11,7 @@
     "defense_01.png": {
       "ver": "1.0.4",
       "uuid": "b29703ed-4e62-43af-aef2-19e70fba7be4",
+      "rawTextureUuid": "8070849f-212a-400f-a7c0-82b6eaff6d82",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -25,11 +27,13 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "defense_02.png": {
       "ver": "1.0.4",
       "uuid": "0204b873-825d-4b3c-847b-dca97caeb254",
+      "rawTextureUuid": "8070849f-212a-400f-a7c0-82b6eaff6d82",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -45,11 +49,13 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "defense_03.png": {
       "ver": "1.0.4",
       "uuid": "545b2077-f2f7-4105-b232-51751cc02af0",
+      "rawTextureUuid": "8070849f-212a-400f-a7c0-82b6eaff6d82",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -65,11 +71,13 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "spriteType": "normal",
       "subMetas": {}
     },
     "defense_04.png": {
       "ver": "1.0.4",
       "uuid": "b69b53c5-a65e-4f55-8dfa-a563d00c7ca7",
+      "rawTextureUuid": "8070849f-212a-400f-a7c0-82b6eaff6d82",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -85,6 +93,7 @@
       "borderBottom": 0,
       "borderLeft": 0,
       "borderRight": 0,
+      "spriteType": "normal",
       "subMetas": {}
     }
   }

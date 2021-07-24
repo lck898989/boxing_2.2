@@ -1,0 +1,146 @@
+
+g3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g3_0
+  rotate: false
+  xy: 291, 809
+  size: 84, 207
+  orig: 241, 245
+  offset: 57, 23
+  index: -1
+g3_4
+  rotate: false
+  xy: 119, 340
+  size: 102, 200
+  orig: 241, 245
+  offset: 45, 35
+  index: -1
+g3_1
+  rotate: false
+  xy: 319, 438
+  size: 104, 189
+  orig: 241, 245
+  offset: 47, 35
+  index: -1
+g3_5
+  rotate: false
+  xy: 198, 809
+  size: 91, 200
+  orig: 241, 245
+  offset: 44, 35
+  index: -1
+g3_3
+  rotate: false
+  xy: 1, 338
+  size: 116, 202
+  orig: 241, 245
+  offset: 38, 35
+  index: -1
+g3_2
+  rotate: false
+  xy: 377, 801
+  size: 75, 188
+  orig: 241, 245
+  offset: 47, 36
+  index: -1
+g3_6
+  rotate: false
+  xy: 354, 1
+  size: 129, 199
+  orig: 241, 245
+  offset: 32, 35
+  index: -1
+g3_13
+  rotate: false
+  xy: 1, 542
+  size: 123, 183
+  orig: 241, 245
+  offset: 56, 35
+  index: -1
+g3_10
+  rotate: false
+  xy: 434, 340
+  size: 131, 152
+  orig: 241, 245
+  offset: 56, 35
+  index: -1
+g3_17
+  rotate: false
+  xy: 126, 542
+  size: 90, 177
+  orig: 241, 245
+  offset: 60, 35
+  index: -1
+g3_14
+  rotate: false
+  xy: 178, 1
+  size: 174, 157
+  orig: 241, 245
+  offset: 64, 35
+  index: -1
+g3_7
+  rotate: false
+  xy: 106, 727
+  size: 90, 207
+  orig: 241, 245
+  offset: 50, 35
+  index: -1
+g3_12
+  rotate: false
+  xy: 223, 438
+  size: 94, 210
+  orig: 241, 245
+  offset: 66, 35
+  index: -1
+g3_15
+  rotate: false
+  xy: 1, 163
+  size: 138, 173
+  orig: 241, 245
+  offset: 63, 35
+  index: -1
+g3_9
+  rotate: false
+  xy: 1, 1
+  size: 175, 160
+  orig: 241, 245
+  offset: 61, 35
+  index: -1
+g3_16
+  rotate: false
+  xy: 178, 160
+  size: 135, 178
+  orig: 241, 245
+  offset: 63, 35
+  index: -1
+g3_11
+  rotate: false
+  xy: 223, 650
+  size: 120, 157
+  orig: 241, 245
+  offset: 56, 35
+  index: -1
+g3_8
+  rotate: false
+  xy: 345, 629
+  size: 97, 170
+  orig: 241, 245
+  offset: 65, 35
+  index: -1
+g3_18
+  rotate: false
+  xy: 1, 727
+  size: 103, 203
+  orig: 241, 245
+  offset: 45, 34
+  index: -1
+g3_19
+  rotate: false
+  xy: 223, 340
+  size: 209, 96
+  orig: 241, 245
+  offset: 0, 0
+  index: -1

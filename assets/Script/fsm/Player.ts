@@ -3,6 +3,7 @@ import ResourceManager from "../managers/ResourceManager";
 import AnimationManager from "../managers/AnimationManager";
 import InputController from "../boxing/controllers/InputController";
 import SkillSystem from "../skillSystem/common/SkillSystem";
+import Util from "../utils/Util";
 
 const {ccclass, property} = cc._decorator;
 
@@ -95,16 +96,8 @@ export default class Player extends cc.Component {
         this.rectCollision = this.node.getComponent(cc.BoxCollider);
 
         // this.animation.on("finished",this.animationEnd,this);
-        if(this.node.group === "enemy") {
-            this.timeId = setInterval(() => {
-                if(!this.node.getComponent(InputController)) {
-                    let aiSkillSystem = this.node.getComponent(SkillSystem);
-                    if(aiSkillSystem) {
-                        aiSkillSystem.useRandSkill();
-                    }
-                }
-            },1000);
-        }
+        this.node.getComponent(cc.Animation).play('wait');
+        
     }
     
     onDestroy() {
@@ -113,6 +106,11 @@ export default class Player extends cc.Component {
     update (dt) {
         if(!this.isAnimationOver) {
             this.rectCollision.size = cc.size(this.node.width,this.node.height);
+        }
+        if(this.node.group === 'enemy') {
+            // let xRange = Util.createRandom(-400,400);
+            // this.node.x += xRange;
+
         }
     }
 

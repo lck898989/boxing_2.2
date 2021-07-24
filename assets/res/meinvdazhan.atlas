@@ -1,0 +1,62 @@
+
+meinvdazhan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nvhai/7
+  rotate: false
+  xy: 226, 1
+  size: 107, 152
+  orig: 115, 168
+  offset: 8, 9
+  index: -1
+nvhai/8
+  rotate: false
+  xy: 221, 324
+  size: 107, 152
+  orig: 115, 168
+  offset: 7, 9
+  index: -1
+nvhai/6
+  rotate: false
+  xy: 116, 168
+  size: 114, 154
+  orig: 115, 168
+  offset: 0, 6
+  index: -1
+nvhai/2
+  rotate: false
+  xy: 1, 1
+  size: 113, 164
+  orig: 115, 168
+  offset: 0, 0
+  index: -1
+nvhai/1
+  rotate: false
+  xy: 116, 1
+  size: 108, 165
+  orig: 115, 168
+  offset: 6, 0
+  index: -1
+nvhai/4
+  rotate: false
+  xy: 1, 331
+  size: 108, 168
+  orig: 115, 168
+  offset: 7, 0
+  index: -1
+nvhai/5
+  rotate: false
+  xy: 111, 331
+  size: 108, 168
+  orig: 115, 168
+  offset: 7, 0
+  index: -1
+nvhai/3
+  rotate: false
+  xy: 1, 167
+  size: 113, 162
+  orig: 115, 168
+  offset: 0, 6
+  index: -1

@@ -1,0 +1,34 @@
+
+tx_shouji3.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_shouji3_0
+  rotate: false
+  xy: 151, 327
+  size: 128, 138
+  orig: 129, 140
+  offset: 0, 0
+  index: -1
+tx_shouji3_1
+  rotate: false
+  xy: 1, 327
+  size: 148, 155
+  orig: 151, 157
+  offset: 0, 0
+  index: -1
+tx_shouji3_2
+  rotate: false
+  xy: 1, 165
+  size: 152, 160
+  orig: 153, 161
+  offset: 1, 1
+  index: -1
+tx_shouji3_3
+  rotate: false
+  xy: 1, 1
+  size: 157, 162
+  orig: 158, 162
+  offset: 1, 0
+  index: -1

@@ -52,7 +52,8 @@
   "excluded-modules": [
     "3D Physics/cannon.js",
     "3D Physics/Builtin",
-    "3D Particle"
+    "3D Particle",
+    "SafeArea"
   ],
   "group-list": [
     "default",
@@ -86,5 +87,8 @@
       "enable": false
     }
   },
-  "start-scene": "current"
+  "start-scene": "current",
+  "migrate-history": [
+    "cloud-function"
+  ]
 }

@@ -1,0 +1,55 @@
+
+tx_bao1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_bao1_0
+  rotate: false
+  xy: 927, 815
+  size: 89, 86
+  orig: 388, 284
+  offset: 86, 108
+  index: -1
+tx_bao1_5
+  rotate: false
+  xy: 490, 1
+  size: 500, 390
+  orig: 525, 494
+  offset: 18, 44
+  index: -1
+tx_bao1_1
+  rotate: false
+  xy: 1, 857
+  size: 131, 132
+  orig: 388, 284
+  offset: 61, 83
+  index: -1
+tx_bao1_4
+  rotate: false
+  xy: 1, 1
+  size: 487, 470
+  orig: 524, 494
+  offset: 20, 4
+  index: -1
+tx_bao1_3
+  rotate: false
+  xy: 490, 393
+  size: 459, 420
+  orig: 525, 494
+  offset: 36, 29
+  index: -1
+tx_bao1_2
+  rotate: false
+  xy: 1, 473
+  size: 413, 382
+  orig: 526, 494
+  offset: 5, 48
+  index: -1
+tx_bao1_6
+  rotate: false
+  xy: 416, 815
+  size: 509, 189
+  orig: 526, 284
+  offset: 16, 49
+  index: -1

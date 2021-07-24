@@ -14,6 +14,9 @@ import NoHealthTrigger from "./triggers/NoHealthTrigger";
 import { FSMTriggerId } from "./common/FSMTriggerId";
 import DeadState from "./states/DeadState";
 import AvoidState from "./states/AvoidState";
+import CloseState from "./states/CloseState";
+import MiddleState from "./states/MiddleState";
+import FarState from "./states/FarState";
 
 const {ccclass, property} = cc._decorator;
 @ccclass
@@ -53,6 +56,9 @@ export default class FSMBase extends cc.Component {
         let idleState: IdleState = new IdleState();
         let deadState: DeadState = new DeadState();
         let avoidState: AvoidState = new AvoidState();
+        let closeState: CloseState = new CloseState();
+        let middleState: MiddleState = new MiddleState();
+        let farState: FarState = new FarState();
 
         /** 添加条件状态映射关系 */
         // deadState.addMap(FSMTriggerId.NoHealth,FSMStateId.Dead);
@@ -62,6 +68,9 @@ export default class FSMBase extends cc.Component {
         this.stateList.push(idleState);
         this.stateList.push(avoidState);
         this.stateList.push(deadState);
+        this.stateList.push(closeState);
+        this.stateList.push(middleState);
+        this.stateList.push(farState);
         
     }
 

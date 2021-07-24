@@ -1,0 +1,48 @@
+
+tx_shandianqiu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_shandianqiu_1
+  rotate: false
+  xy: 1, 222
+  size: 273, 225
+  orig: 325, 234
+  offset: 22, 3
+  index: -1
+tx_shandianqiu_2
+  rotate: false
+  xy: 276, 231
+  size: 259, 227
+  orig: 325, 234
+  offset: 23, 0
+  index: -1
+tx_shandianqiu_4
+  rotate: false
+  xy: 569, 1
+  size: 283, 217
+  orig: 325, 234
+  offset: 30, 12
+  index: -1
+tx_shandianqiu_5
+  rotate: false
+  xy: 295, 1
+  size: 272, 228
+  orig: 325, 234
+  offset: 29, 4
+  index: -1
+tx_shandianqiu_3
+  rotate: false
+  xy: 1, 1
+  size: 292, 219
+  orig: 325, 234
+  offset: 26, 10
+  index: -1
+tx_shandianqiu_0
+  rotate: false
+  xy: 569, 220
+  size: 288, 213
+  orig: 325, 234
+  offset: 6, 11
+  index: -1

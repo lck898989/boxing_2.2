@@ -1,0 +1,48 @@
+
+tx_xiazhua.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_xiazhua_0
+  rotate: false
+  xy: 1, 184
+  size: 170, 147
+  orig: 177, 151
+  offset: 2, 4
+  index: -1
+tx_xiazhua_4
+  rotate: false
+  xy: 59, 333
+  size: 49, 125
+  orig: 50, 131
+  offset: 1, 2
+  index: -1
+tx_xiazhua_3
+  rotate: false
+  xy: 1, 333
+  size: 56, 151
+  orig: 58, 156
+  offset: 2, 3
+  index: -1
+tx_xiazhua_5
+  rotate: false
+  xy: 110, 333
+  size: 13, 68
+  orig: 15, 73
+  offset: 1, 1
+  index: -1
+tx_xiazhua_2
+  rotate: false
+  xy: 151, 1
+  size: 90, 176
+  orig: 93, 180
+  offset: 2, 3
+  index: -1
+tx_xiazhua_1
+  rotate: false
+  xy: 1, 1
+  size: 148, 181
+  orig: 151, 183
+  offset: 2, 2
+  index: -1

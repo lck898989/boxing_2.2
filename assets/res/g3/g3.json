@@ -1,0 +1,542 @@
+{
+    "skeleton": {
+        "width": 257,
+        "height": 260,
+        "fps": 60,
+        "hash": " ",
+        "name": "armatureName"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "inheritScale": false,
+            "x": 26,
+            "y": 72.6733,
+            "name": "Layer5",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 30,
+            "y": 86.6733,
+            "name": "zou",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 26,
+            "y": 87.6733,
+            "name": "zhan",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 23,
+            "y": 72.6733,
+            "name": "shouji",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 14,
+            "y": 86.6733,
+            "name": "daodi",
+            "parent": "root",
+            "transform": "noScale"
+        }
+    ],
+    "slots": [
+        {
+            "name": "zhan",
+            "bone": "zhan",
+            "attachment": "g3_0"
+        },
+        {
+            "name": "zou",
+            "bone": "zou",
+            "attachment": "g3_1"
+        },
+        {
+            "name": "Layer5",
+            "bone": "Layer5",
+            "attachment": "g3_7"
+        },
+        {
+            "name": "shouji",
+            "bone": "shouji",
+            "attachment": "g3_18"
+        },
+        {
+            "name": "daodi",
+            "bone": "daodi",
+            "attachment": "g3_19"
+        }
+    ],
+    "skins": {
+        "default": {
+            "zou": {
+                "g3_1": {
+                    "name": "g3_1",
+                    "width": 104,
+                    "height": 189,
+                    "x": 0.51,
+                    "y": -0.49
+                },
+                "g3_2": {
+                    "name": "g3_2",
+                    "width": 75,
+                    "height": 188
+                },
+                "g3_3": {
+                    "name": "g3_3",
+                    "width": 116,
+                    "height": 202
+                },
+                "g3_4": {
+                    "name": "g3_4",
+                    "width": 102,
+                    "height": 200
+                },
+                "g3_5": {
+                    "name": "g3_5",
+                    "width": 91,
+                    "height": 200
+                },
+                "g3_6": {
+                    "name": "g3_6",
+                    "width": 129,
+                    "height": 199
+                }
+            },
+            "Layer5": {
+                "g3_7": {
+                    "name": "g3_7",
+                    "width": 90,
+                    "height": 207,
+                    "x": 0.51,
+                    "y": -0.49
+                },
+                "g3_8": {
+                    "name": "g3_8",
+                    "width": 97,
+                    "height": 170
+                },
+                "g3_9": {
+                    "name": "g3_9",
+                    "width": 175,
+                    "height": 160,
+                    "x": 0.51,
+                    "y": -0.49
+                },
+                "g3_10": {
+                    "name": "g3_10",
+                    "width": 131,
+                    "height": 152
+                },
+                "g3_11": {
+                    "name": "g3_11",
+                    "width": 120,
+                    "height": 157
+                },
+                "g3_12": {
+                    "name": "g3_12",
+                    "width": 94,
+                    "height": 210
+                },
+                "g3_13": {
+                    "name": "g3_13",
+                    "width": 123,
+                    "height": 183
+                },
+                "g3_14": {
+                    "name": "g3_14",
+                    "width": 174,
+                    "height": 157,
+                    "x": 0.51,
+                    "y": -0.49
+                },
+                "g3_15": {
+                    "name": "g3_15",
+                    "width": 138,
+                    "height": 173,
+                    "x": 0.51,
+                    "y": -0.49
+                },
+                "g3_16": {
+                    "name": "g3_16",
+                    "width": 135,
+                    "height": 178
+                },
+                "g3_17": {
+                    "name": "g3_17",
+                    "width": 90,
+                    "height": 177
+                }
+            },
+            "shouji": {
+                "g3_18": {
+                    "name": "g3_18",
+                    "width": 103,
+                    "height": 203,
+                    "x": 0.51,
+                    "y": -0.49
+                }
+            },
+            "zhan": {
+                "g3_0": {
+                    "name": "g3_0",
+                    "width": 84,
+                    "height": 207,
+                    "x": 0.51,
+                    "y": -0.49
+                }
+            },
+            "daodi": {
+                "g3_19": {
+                    "name": "g3_19",
+                    "width": 209,
+                    "height": 96,
+                    "x": 0.51,
+                    "y": -0.49
+                }
+            }
+        }
+    },
+    "animations": {
+        "0": {
+            "slots": {
+                "zou": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "shouji": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "daodi": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "1": {
+            "slots": {
+                "zou": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "g3_1"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "g3_2"
+                        },
+                        {
+                            "time": 0.3334,
+                            "name": "g3_3"
+                        },
+                        {
+                            "time": 0.5001,
+                            "name": "g3_4"
+                        },
+                        {
+                            "time": 0.6668,
+                            "name": "g3_5"
+                        },
+                        {
+                            "time": 0.8335,
+                            "name": "g3_6"
+                        },
+                        {
+                            "time": 1.0002,
+                            "name": "g3_1"
+                        }
+                    ]
+                },
+                "zhan": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "shouji": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "daodi": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "2": {
+            "bones": {
+                "shouji": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -4,
+                            "y": 2
+                        }
+                    ]
+                }
+            },
+            "slots": {
+                "zhan": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "zou": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "daodi": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "3": {
+            "bones": {
+                "shouji": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -4,
+                            "y": 2
+                        }
+                    ]
+                }
+            },
+            "slots": {
+                "zhan": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "zou": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "daodi": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "4": {
+            "slots": {
+                "zhan": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "zou": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "shouji": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "5": {
+            "bones": {
+                "Layer5": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -1,
+                            "y": 2
+                        }
+                    ]
+                }
+            },
+            "slots": {
+                "Layer5": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "g3_7"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "g3_8"
+                        },
+                        {
+                            "time": 0.1334,
+                            "name": "g3_9"
+                        },
+                        {
+                            "time": 0.2001,
+                            "name": "g3_10"
+                        },
+                        {
+                            "time": 0.2668,
+                            "name": "g3_11"
+                        },
+                        {
+                            "time": 0.3335,
+                            "name": "g3_12"
+                        },
+                        {
+                            "time": 0.4002,
+                            "name": "g3_13"
+                        },
+                        {
+                            "time": 0.5002,
+                            "name": "g3_14"
+                        },
+                        {
+                            "time": 0.6002,
+                            "name": "g3_15"
+                        },
+                        {
+                            "time": 0.7002,
+                            "name": "g3_16"
+                        },
+                        {
+                            "time": 0.8002,
+                            "name": "g3_17"
+                        }
+                    ]
+                },
+                "zhan": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "zou": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "shouji": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "daodi": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

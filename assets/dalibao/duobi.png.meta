@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "79725603-800f-4c10-88e5-7a88a0988908",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 78,
+  "height": 80,
+  "platformSettings": {},
+  "subMetas": {
+    "duobi": {
+      "ver": "1.0.4",
+      "uuid": "5bf9a67f-240b-4ea2-b59f-b68d9939cb44",
+      "rawTextureUuid": "79725603-800f-4c10-88e5-7a88a0988908",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 78,
+      "height": 80,
+      "rawWidth": 78,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,90 @@
+
+wuqifeidao.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g2_29
+  rotate: false
+  xy: 53, 60
+  size: 40, 16
+  orig: 65, 28
+  offset: 17, 6
+  index: -1
+g2_31
+  rotate: false
+  xy: 1, 77
+  size: 40, 16
+  orig: 65, 28
+  offset: 17, 2
+  index: -1
+g2_34
+  rotate: false
+  xy: 85, 78
+  size: 24, 18
+  orig: 65, 28
+  offset: 6, 4
+  index: -1
+g2_24
+  rotate: false
+  xy: 1, 1
+  size: 50, 20
+  orig: 50, 20
+  offset: 0, 0
+  index: -1
+g2_26
+  rotate: false
+  xy: 1, 23
+  size: 45, 20
+  orig: 50, 20
+  offset: 5, 0
+  index: -1
+g2_35
+  rotate: false
+  xy: 1, 95
+  size: 40, 16
+  orig: 65, 28
+  offset: 9, 6
+  index: -1
+g2_30
+  rotate: false
+  xy: 100, 43
+  size: 24, 18
+  orig: 65, 28
+  offset: 33, 3
+  index: -1
+g2_27
+  rotate: false
+  xy: 53, 1
+  size: 50, 19
+  orig: 50, 20
+  offset: 0, 1
+  index: -1
+g2_32
+  rotate: false
+  xy: 48, 43
+  size: 50, 15
+  orig: 65, 28
+  offset: 7, 1
+  index: -1
+g2_33
+  rotate: false
+  xy: 43, 78
+  size: 40, 16
+  orig: 65, 28
+  offset: 7, 1
+  index: -1
+g2_25
+  rotate: false
+  xy: 53, 22
+  size: 50, 19
+  orig: 50, 20
+  offset: 0, 1
+  index: -1
+g2_28
+  rotate: false
+  xy: 1, 60
+  size: 50, 15
+  orig: 65, 28
+  offset: 7, 6
+  index: -1

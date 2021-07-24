@@ -1,0 +1,41 @@
+
+tx_ti.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_ti_2
+  rotate: false
+  xy: 169, 211
+  size: 97, 190
+  orig: 108, 204
+  offset: 2, 7
+  index: -1
+tx_ti_4
+  rotate: false
+  xy: 227, 1
+  size: 30, 166
+  orig: 33, 168
+  offset: 2, 1
+  index: -1
+tx_ti_0
+  rotate: false
+  xy: 1, 211
+  size: 166, 176
+  orig: 195, 208
+  offset: 14, 16
+  index: -1
+tx_ti_1
+  rotate: false
+  xy: 1, 1
+  size: 171, 208
+  orig: 207, 244
+  offset: 19, 18
+  index: -1
+tx_ti_3
+  rotate: false
+  xy: 174, 1
+  size: 51, 171
+  orig: 54, 171
+  offset: 0, 0
+  index: -1

@@ -12,5 +12,11 @@ export enum FSMStateId {
     /** 攻击状态 */
     Atach,
     /** 躲避状态 */
-    Avoid
+    Avoid,
+    /** 近距离状态 */
+    Close,
+    /** 中等距离状态 */
+    Middle,
+    /** 远距离状态 */
+    Far
 }

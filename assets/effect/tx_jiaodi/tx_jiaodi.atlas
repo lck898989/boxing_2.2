@@ -1,0 +1,34 @@
+
+tx_jiaodi.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_jiaodi_1
+  rotate: false
+  xy: 1, 1
+  size: 192, 57
+  orig: 196, 59
+  offset: 2, 1
+  index: -1
+tx_jiaodi_3
+  rotate: false
+  xy: 1, 193
+  size: 104, 54
+  orig: 106, 54
+  offset: 1, 0
+  index: -1
+tx_jiaodi_0
+  rotate: false
+  xy: 1, 60
+  size: 151, 67
+  orig: 155, 68
+  offset: 2, 0
+  index: -1
+tx_jiaodi_2
+  rotate: false
+  xy: 1, 129
+  size: 160, 62
+  orig: 162, 65
+  offset: 1, 1
+  index: -1

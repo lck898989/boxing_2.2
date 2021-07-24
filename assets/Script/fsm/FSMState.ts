@@ -25,8 +25,8 @@ export default abstract class FSMState {
     constructor() {
         this.triggers = [];
         this.init();
-
         this.initTriggerStateMap();
+
     }
 
     get stateId(): FSMStateId {
@@ -43,6 +43,14 @@ export default abstract class FSMState {
         /** 添加条件状态映射 */
         this.addMap(FSMTriggerId.Avoid,FSMStateId.Avoid);
         this.addMap(FSMTriggerId.NoHealth,FSMStateId.Dead);
+        // this.addMap(FSMTriggerId.Close,FSMStateId.Close);
+        // this.addMap(FSMTriggerId.Middle,FSMStateId.Middle);
+        // this.addMap(FSMTriggerId.Far,FSMStateId.Far);
+        
+        this.addMap(FSMTriggerId.Idle,FSMStateId.Idle);
+        this.triggerStateMap.forEach((value,key) => {
+            console.log(`map is ${FSMTriggerId[key]} => ${FSMStateId[value]}`);
+        })
     }
 
     /*** 状态机调用为映射表和条件列表赋值 */
@@ -65,15 +73,20 @@ export default abstract class FSMState {
     
     /** 检查条件符合条件的通知状态机进行切换 */
     public check(fsm: FSMBase) {
-        let trigger: FSMTrigger = this.triggers.find((item,index) => {
+        let self = this;
+        let trigger: FSMTrigger = null;
+
+        for(let item of self.triggers) {
             if(item && item.handleTrigger && item.handleTrigger(fsm)) {
                 /** 得到状态id */
-                let stateId = this.triggerStateMap.get(item.id);
+                let stateId = self.triggerStateMap.get(item.id);
                 /** 通知状态机切换状态 */
                 fsm.switchState(stateId);
-                return true;   
+                
+                trigger = item;
+                // break;
             }
-        });
+        }
         /** 找不到符合条件的状态切换到默认状态 */
         if(!trigger && fsm.node.getComponent(Player).isAnimationOver) {
             fsm.switchState(FSMStateId.Idle);

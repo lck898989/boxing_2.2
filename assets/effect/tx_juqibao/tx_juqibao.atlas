@@ -1,0 +1,55 @@
+
+tx_juqibao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_juqibao_3
+  rotate: false
+  xy: 260, 1
+  size: 255, 258
+  orig: 287, 287
+  offset: 14, 11
+  index: -1
+tx_juqibao_1
+  rotate: false
+  xy: 1, 263
+  size: 181, 204
+  orig: 183, 207
+  offset: 2, 0
+  index: -1
+tx_juqibao_4
+  rotate: false
+  xy: 517, 1
+  size: 251, 259
+  orig: 285, 285
+  offset: 15, 7
+  index: -1
+tx_juqibao_2
+  rotate: false
+  xy: 1, 1
+  size: 257, 260
+  orig: 292, 293
+  offset: 16, 14
+  index: -1
+tx_juqibao_0
+  rotate: false
+  xy: 491, 262
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+tx_juqibao_6
+  rotate: false
+  xy: 260, 261
+  size: 229, 230
+  orig: 280, 280
+  offset: 22, 22
+  index: -1
+tx_juqibao_5
+  rotate: false
+  xy: 770, 1
+  size: 249, 259
+  orig: 282, 282
+  offset: 14, 5
+  index: -1

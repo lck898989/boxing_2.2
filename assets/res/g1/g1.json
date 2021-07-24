@@ -1,0 +1,531 @@
+{
+    "skeleton": {
+        "width": 335,
+        "height": 274,
+        "fps": 60,
+        "hash": " ",
+        "name": "armatureName"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "inheritScale": false,
+            "x": 56,
+            "y": 98,
+            "scaleX": -1,
+            "name": "Layer7",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 56,
+            "y": 98,
+            "scaleX": -1,
+            "name": "Layer3",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 56,
+            "y": 98,
+            "scaleX": -1,
+            "name": "Layer4",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 56,
+            "y": 98,
+            "scaleX": -1,
+            "name": "Layer1",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 56,
+            "y": 98,
+            "scaleX": -1,
+            "name": "Layer8",
+            "parent": "root",
+            "transform": "noScale"
+        },
+        {
+            "inheritScale": false,
+            "x": 42,
+            "y": 98,
+            "scaleX": -1,
+            "name": "Layer9",
+            "parent": "root",
+            "transform": "noScale"
+        }
+    ],
+    "slots": [
+        {
+            "name": "Layer1",
+            "bone": "Layer1",
+            "attachment": "g1_1"
+        },
+        {
+            "name": "Layer3",
+            "bone": "Layer3",
+            "attachment": "g1_2"
+        },
+        {
+            "name": "Layer4",
+            "bone": "Layer4",
+            "attachment": "g1_12"
+        },
+        {
+            "name": "Layer7",
+            "bone": "Layer7",
+            "attachment": "g1_13"
+        },
+        {
+            "name": "Layer8",
+            "bone": "Layer8",
+            "attachment": "g1_14"
+        },
+        {
+            "name": "Layer9",
+            "bone": "Layer9",
+            "attachment": "g1_8"
+        }
+    ],
+    "skins": {
+        "default": {
+            "Layer1": {
+                "g1_1": {
+                    "name": "g1_1",
+                    "width": 94,
+                    "height": 180,
+                    "x": 0.51
+                }
+            },
+            "Layer3": {
+                "g1_2": {
+                    "name": "g1_2",
+                    "width": 141,
+                    "height": 186,
+                    "x": 0.51
+                },
+                "g1_7": {
+                    "name": "g1_7",
+                    "width": 118,
+                    "height": 192
+                },
+                "g1_3": {
+                    "name": "g1_3",
+                    "width": 119,
+                    "height": 187
+                },
+                "g1_4": {
+                    "name": "g1_4",
+                    "width": 118,
+                    "height": 183
+                },
+                "g1_5": {
+                    "name": "g1_5",
+                    "width": 122,
+                    "height": 187
+                },
+                "g1_6": {
+                    "name": "g1_6",
+                    "width": 118,
+                    "height": 190
+                }
+            },
+            "Layer4": {
+                "g1_12": {
+                    "name": "g1_12",
+                    "width": 113,
+                    "height": 159,
+                    "x": 0.51
+                }
+            },
+            "Layer7": {
+                "g1_13": {
+                    "name": "g1_13",
+                    "width": 119,
+                    "height": 191,
+                    "x": 0.51
+                }
+            },
+            "Layer8": {
+                "g1_14": {
+                    "name": "g1_14",
+                    "width": 205,
+                    "height": 89,
+                    "x": 0.51
+                }
+            },
+            "Layer9": {
+                "g1_8": {
+                    "name": "g1_8",
+                    "width": 148,
+                    "height": 193,
+                    "x": 0.51
+                },
+                "g1_9": {
+                    "name": "g1_9",
+                    "width": 170,
+                    "height": 210
+                },
+                "g1_10": {
+                    "name": "g1_10",
+                    "width": 232,
+                    "height": 237,
+                    "x": 0.51
+                },
+                "g1_11": {
+                    "name": "g1_11",
+                    "width": 195,
+                    "height": 155
+                }
+            }
+        }
+    },
+    "animations": {
+        "animation0": {
+            "slots": {
+                "Layer3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer7": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer8": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer9": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "animation1": {
+            "slots": {
+                "Layer3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "g1_2"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "g1_3"
+                        },
+                        {
+                            "time": 0.3334,
+                            "name": "g1_4"
+                        },
+                        {
+                            "time": 0.5001,
+                            "name": "g1_5"
+                        },
+                        {
+                            "time": 0.6668,
+                            "name": "g1_6"
+                        },
+                        {
+                            "time": 0.8335,
+                            "name": "g1_7"
+                        },
+                        {
+                            "time": 1.0002,
+                            "name": "g1_2"
+                        }
+                    ]
+                },
+                "Layer1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer7": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer8": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer9": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "animation2": {
+            "slots": {
+                "Layer1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer7": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer8": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer9": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "animation3": {
+            "slots": {
+                "Layer1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer8": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer9": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "animation4": {
+            "slots": {
+                "Layer1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer7": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer9": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "animation5": {
+            "bones": {
+                "Layer9": {
+                    "translate": [
+                        {
+                            "time": 0
+                        },
+                        {
+                            "time": 0.1,
+                            "y": -2
+                        },
+                        {
+                            "time": 0.2,
+                            "y": 5
+                        },
+                        {
+                            "time": 0.3333
+                        }
+                    ]
+                }
+            },
+            "slots": {
+                "Layer9": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "g1_8"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "g1_9"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "g1_10"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "g1_11"
+                        }
+                    ]
+                },
+                "Layer1": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer3": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer4": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer7": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                },
+                "Layer8": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": ""
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+
+quanqiande.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+哈哈/yinying
+  rotate: false
+  xy: 1, 322
+  size: 110, 14
+  orig: 110, 14
+  offset: 0, 0
+  index: -1
+哈哈/4
+  rotate: false
+  xy: 1, 174
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+哈哈/1
+  rotate: false
+  xy: 182, 242
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+哈哈/te2
+  rotate: false
+  xy: 103, 162
+  size: 106, 78
+  orig: 119, 85
+  offset: 7, 4
+  index: -1
+哈哈/te6
+  rotate: false
+  xy: 1, 1
+  size: 119, 85
+  orig: 119, 85
+  offset: 0, 0
+  index: -1
+哈哈/te1
+  rotate: false
+  xy: 1, 242
+  size: 109, 72
+  orig: 119, 85
+  offset: 5, 7
+  index: -1
+哈哈/te5
+  rotate: false
+  xy: 122, 1
+  size: 118, 81
+  orig: 119, 85
+  offset: 1, 2
+  index: -1
+哈哈/te3
+  rotate: false
+  xy: 1, 88
+  size: 100, 84
+  orig: 119, 85
+  offset: 10, 1
+  index: -1
+哈哈/2
+  rotate: false
+  xy: 112, 242
+  size: 68, 78
+  orig: 85, 79
+  offset: 1, 0
+  index: -1
+哈哈/te4
+  rotate: false
+  xy: 122, 84
+  size: 111, 76
+  orig: 119, 85
+  offset: 4, 5
+  index: -1
+哈哈/5
+  rotate: false
+  xy: 182, 312
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1

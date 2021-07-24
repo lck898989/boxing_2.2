@@ -1,0 +1,41 @@
+
+tx_chongyanwu.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_chongyanwu_0
+  rotate: false
+  xy: 1, 323
+  size: 114, 83
+  orig: 118, 87
+  offset: 2, 1
+  index: -1
+tx_chongyanwu_1
+  rotate: false
+  xy: 1, 217
+  size: 142, 104
+  orig: 144, 105
+  offset: 1, 0
+  index: -1
+tx_chongyanwu_3
+  rotate: false
+  xy: 1, 1
+  size: 160, 105
+  orig: 161, 108
+  offset: 0, 1
+  index: -1
+tx_chongyanwu_2
+  rotate: false
+  xy: 1, 108
+  size: 154, 107
+  orig: 156, 110
+  offset: 1, 2
+  index: -1
+tx_chongyanwu_4
+  rotate: false
+  xy: 117, 323
+  size: 82, 75
+  orig: 83, 76
+  offset: 0, 1
+  index: -1

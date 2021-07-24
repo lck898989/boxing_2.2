@@ -1,0 +1,139 @@
+
+nvzhujiao.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nvzhujiao_17
+  rotate: false
+  xy: 679, 440
+  size: 67, 38
+  orig: 67, 38
+  offset: 0, 0
+  index: -1
+nvzhujiao_15
+  rotate: false
+  xy: 863, 383
+  size: 152, 64
+  orig: 152, 64
+  offset: 0, 0
+  index: -1
+nvzhujiao_16
+  rotate: false
+  xy: 679, 385
+  size: 116, 53
+  orig: 116, 53
+  offset: 0, 0
+  index: -1
+nvzhujiao_18
+  rotate: false
+  xy: 748, 440
+  size: 56, 22
+  orig: 56, 22
+  offset: 0, 0
+  index: -1
+nvzhujiao_4
+  rotate: false
+  xy: 863, 1
+  size: 72, 187
+  orig: 148, 215
+  offset: 22, 0
+  index: -1
+nvzhujiao_1
+  rotate: false
+  xy: 784, 190
+  size: 77, 193
+  orig: 148, 215
+  offset: 25, 0
+  index: -1
+nvzhujiao_2
+  rotate: false
+  xy: 679, 1
+  size: 104, 187
+  orig: 148, 215
+  offset: 20, 0
+  index: -1
+nvzhujiao_3
+  rotate: false
+  xy: 937, 1
+  size: 69, 186
+  orig: 148, 215
+  offset: 36, 0
+  index: -1
+nvzhujiao_6
+  rotate: false
+  xy: 679, 190
+  size: 103, 187
+  orig: 148, 215
+  offset: 24, 0
+  index: -1
+nvzhujiao
+  rotate: false
+  xy: 937, 189
+  size: 65, 192
+  orig: 148, 215
+  offset: 38, 0
+  index: -1
+nvzhujiao_5
+  rotate: false
+  xy: 785, 1
+  size: 76, 186
+  orig: 148, 215
+  offset: 30, 0
+  index: -1
+nvzhujiao_7
+  rotate: false
+  xy: 510, 1
+  size: 167, 201
+  orig: 168, 205
+  offset: 1, 0
+  index: -1
+nvzhujiao_14
+  rotate: false
+  xy: 510, 204
+  size: 167, 201
+  orig: 168, 205
+  offset: 1, 1
+  index: -1
+nvzhujiao_12
+  rotate: false
+  xy: 1, 1
+  size: 168, 201
+  orig: 168, 205
+  offset: 0, 4
+  index: -1
+nvzhujiao_9
+  rotate: false
+  xy: 341, 1
+  size: 167, 201
+  orig: 168, 205
+  offset: 1, 1
+  index: -1
+nvzhujiao_8
+  rotate: false
+  xy: 1, 204
+  size: 168, 201
+  orig: 168, 205
+  offset: 0, 3
+  index: -1
+nvzhujiao_11
+  rotate: false
+  xy: 171, 204
+  size: 168, 201
+  orig: 168, 205
+  offset: 0, 3
+  index: -1
+nvzhujiao_10
+  rotate: false
+  xy: 341, 204
+  size: 167, 201
+  orig: 168, 205
+  offset: 1, 1
+  index: -1
+nvzhujiao_13
+  rotate: false
+  xy: 171, 1
+  size: 168, 201
+  orig: 168, 205
+  offset: 0, 3
+  index: -1

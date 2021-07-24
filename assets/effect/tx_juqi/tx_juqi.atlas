@@ -1,0 +1,48 @@
+
+tx_juqi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tx_juqi_1
+  rotate: false
+  xy: 167, 1
+  size: 161, 152
+  orig: 176, 180
+  offset: 1, 21
+  index: -1
+tx_juqi_2
+  rotate: false
+  xy: 167, 155
+  size: 161, 148
+  orig: 176, 180
+  offset: 2, 24
+  index: -1
+tx_juqi_3
+  rotate: false
+  xy: 330, 166
+  size: 150, 129
+  orig: 176, 180
+  offset: 8, 33
+  index: -1
+tx_juqi_4
+  rotate: false
+  xy: 1, 166
+  size: 140, 139
+  orig: 176, 180
+  offset: 13, 29
+  index: -1
+tx_juqi_0
+  rotate: false
+  xy: 1, 1
+  size: 164, 163
+  orig: 176, 180
+  offset: 0, 16
+  index: -1
+tx_juqi_5
+  rotate: false
+  xy: 330, 1
+  size: 147, 163
+  orig: 176, 180
+  offset: 9, 16
+  index: -1
